@@ -5,7 +5,7 @@ This is the repository for our CS591E3:Mobile App Development class project.
 
 Login resources: Google, Twitter, Facebook and own
 
-Third-party authenication: Ray
+Third-party authentication: Ray
 
 
 Deadlines:
