@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201770276474",
+    "firebase_url": "https://y2ysigning.firebaseio.com",
+    "project_id": "y2ysigning",
+    "storage_bucket": "y2ysigning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201770276474:android:460e36506eede83b",
+        "android_client_info": {
+          "package_name": "com.example.studio.y2ysignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201770276474-79hunr2afaikmri0eq59mu9epgt2mr17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studio.y2ysignin",
+            "certificate_hash": "2373ff9bff2a8af005a092da9f78d60d179b9cc3"
+          }
+        },
+        {
+          "client_id": "201770276474-h5c54hjdec6g1buspe0eibrdg60ciien.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiczyD1peaKiVpoRAMBXPn_rLY9VhiNxE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201770276474-h5c54hjdec6g1buspe0eibrdg60ciien.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
