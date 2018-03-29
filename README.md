@@ -12,10 +12,3 @@ Deadlines:
 April 3: Research present
 
 
-Timeline:
-
-Week 1:
-• Understand how to do Salesforce
-• Blueprint for each activity
-• Maybe set up slide out menu?
-
