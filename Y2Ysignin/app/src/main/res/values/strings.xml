@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Y2Ysignin</string>
     <string name="title_activity_second_one">SecondOne</string>
+    <string name="facebook_app_id">175237109941706</string>
+    <string name="fb_login_protocol_scheme">fb175237109941706</string>
 </resources>
