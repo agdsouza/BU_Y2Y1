@@ -19,19 +19,26 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView info;
     private LoginButton loginButton;
+    //Used to manage the callbacks used in the app
     private CallbackManager callbackManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //Initialize the FB SDK
         FacebookSdk.sdkInitialize(getApplicationContext());
+
+        //Intialize the instance of CallbackManager
         callbackManager = CallbackManager.Factory.create();
 
         setContentView(R.layout.activity_main);
         info = (TextView)findViewById(R.id.info);
         loginButton = (LoginButton)findViewById(R.id.login_button);
 
+
+        //Callback to handle results of the login and register it with Callback Manager
+        //Implements the FacebookCallback interface
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
@@ -58,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //Tapping the login button starts off a new Activity,
+    //which returns a result. To receive and handle the result,
+    // override the onActivityResult method of your Activity and pass its parameters to the
+    // onActivityResult method of CallbackManager.
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         callbackManager.onActivityResult(requestCode, resultCode, data);
