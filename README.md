@@ -11,4 +11,10 @@ Third-party authentication: Ray
 Deadlines:
 April 3: Research present
 
+Weekly Goals
+Integrate Salesforce into third party auth
+Improve UI to match wireframes
+Research Saleforce surveys and how to implement in android 
+Contact developers at Y2Y to get information our coordinator was unable to provide
+
 
