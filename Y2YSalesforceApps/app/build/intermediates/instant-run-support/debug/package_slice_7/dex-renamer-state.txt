@@ -1,4 +1,0 @@
-#Mon Apr 02 21:18:44 EDT 2018
-base.0=C\:\\Users\\Monica\\Documents\\GitHub\\Y2Y-Prototype\\Y2YSalesforceApps\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
-path.0=classes.dex
-renamed.0=classes.dex
