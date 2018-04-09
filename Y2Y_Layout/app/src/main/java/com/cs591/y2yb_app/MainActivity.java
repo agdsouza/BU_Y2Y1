@@ -1,5 +1,7 @@
 package com.cs591.y2yb_app;
 
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -9,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +40,20 @@ public class MainActivity extends AppCompatActivity {
 
         // display the home screen as a default
         displaySelectedScreen(R.id.nav_home);
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        int id = item.getItemId();
+                        item.setChecked(true);
+                        mDrawerLayout.closeDrawers();
+                        displaySelectedScreen(id);
+                        return true;
+                    }
+                }
+        );
     }
 
     private void displaySelectedScreen(int id) {
@@ -47,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_home:
                 fragment = new HomeFragment();
                 break;
+            case R.id.nav_lottery:
+                fragment = new LotteryFragment();
         }
 
         // set the current screen to the fragment inputted as an argument
@@ -63,14 +82,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        int id = item.getItemId();
         if (mToggle.onOptionsItemSelected(item)) {
+            Toast.makeText(this, "woah", Toast.LENGTH_SHORT).show();
             return true;
         }
 
-        // display fragment using id
         else {
-            displaySelectedScreen(id);
+            Toast.makeText(this, "haha", Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);
