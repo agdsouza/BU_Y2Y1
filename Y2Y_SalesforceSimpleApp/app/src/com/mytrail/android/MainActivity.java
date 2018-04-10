@@ -120,9 +120,9 @@ public class MainActivity extends SalesforceActivity {
 		sendRequest("SELECT Name FROM Account");
 	}
 
-	public void onFetchDetailsOfStay(View v) throws UnsupportedEncodingException {
-		sendRequest("SELECT ");
-	}
+//	public void onFetchDetailsOfStay(View v) throws UnsupportedEncodingException {
+//		sendRequest("SELECT ");
+//	}
 
 
 	

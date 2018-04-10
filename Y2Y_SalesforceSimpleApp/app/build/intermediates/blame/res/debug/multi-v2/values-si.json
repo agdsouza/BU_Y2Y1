@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Monica\\Documents\\GitHub\\BU_Y2Y1\\SalesforceSimpleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
+            "outputFile": "C:\\Users\\Monica\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_SalesforceSimpleApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Monica\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-11.8.0.aar\\2b82c2d69875bb41f503861147e75fbc\\res\\values-si\\values.xml",

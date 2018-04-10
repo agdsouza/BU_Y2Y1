@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Monica\\Documents\\GitHub\\BU_Y2Y1\\SalesforceSimpleApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
+            "outputFile": "C:\\Users\\Monica\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_SalesforceSimpleApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-fr-rCA\\values-fr-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Monica\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\9b2ef318677e43c1805c71c09a91dcbf\\res\\values-fr-rCA\\values.xml",

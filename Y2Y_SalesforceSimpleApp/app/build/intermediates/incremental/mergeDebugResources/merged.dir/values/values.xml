@@ -83,10 +83,10 @@
     <dimen name="sf__server_picker_margin_right">3dp</dimen>
     <dimen name="sf__server_picker_margin_top">7dp</dimen>
     <integer name="google_play_services_version">11910000</integer>
-    <string name="account_type">com.mytrail.android.login</string>
+    <string name="account_type">com.mytrail.android.test</string>
     <string name="androidPushNotificationClientId"/>
     <string name="api_version">v42.0</string>
-    <string name="app_name"><b>SalesforceSimpleApp</b></string>
+    <string name="app_name"><b>Y2Y_SalesforceSimpleApp</b></string>
     <string name="app_package">com.mytrail.android</string>
     <string name="clear_button">Clear</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>

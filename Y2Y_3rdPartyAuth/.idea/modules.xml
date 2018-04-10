@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Y2Y_3rdPartyAuth.iml" filepath="$PROJECT_DIR$/Y2Y_3rdPartyAuth.iml" />
+      <module fileurl="file://C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_3rdPartyAuth\Y2Y_FBAUTH.iml" filepath="C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_3rdPartyAuth\Y2Y_FBAUTH.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_3rdPartyAuth\app\app.iml" filepath="C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_3rdPartyAuth\app\app.iml" />
+    </modules>
+  </component>
+</project>
