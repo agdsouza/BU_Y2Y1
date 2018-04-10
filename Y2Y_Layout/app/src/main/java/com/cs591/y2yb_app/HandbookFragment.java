@@ -7,18 +7,25 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
 
-public class ScheduleFragment extends Fragment {
+public class HandbookFragment extends Fragment {
+
+    WebView wvHandbook;
+    String uri;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.schedule_frag, container, false);
-
+        return inflater.inflate(R.layout.handbook_frag, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        wvHandbook = view.findViewById(R.id.wvHandbook);
+        // change this URL later to one that links to PDF
+        uri = "https://www.google.com";
+        wvHandbook.loadUrl(uri);
         super.onViewCreated(view, savedInstanceState);
     }
 }

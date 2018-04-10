@@ -66,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.nav_lottery:
                 fragment = new LotteryFragment();
+                break;
+            case R.id.nav_schedule:
+                fragment = new ScheduleFragment();
+                break;
+            case R.id.nav_handbook:
+                fragment = new HandbookFragment();
+                break;
         }
 
         // set the current screen to the fragment inputted as an argument

@@ -2,7 +2,8 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -13,18 +14,27 @@
             android:id="@+id/sched_lay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="30sp"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tvSchedHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Upcoming Events"/>
+                android:layout_marginBottom="10sp"
+                android:layout_marginLeft="10sp"
+                android:text="Upcoming Events"
+                android:textSize="18sp"/>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/event_frag"
+                android:layout_width="500dp"
+                android:layout_height="250dp"
                 android:orientation="vertical">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -33,19 +43,24 @@
             android:id="@+id/note_lay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tvRSVP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="You can attend events without RSVPing"/>
+                android:gravity="center"
+                android:text="You can attend events without RSVPing"
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/tvQuestions"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Have questions about an event? Ask a staff member!"/>
+                android:gravity="center"
+                android:text="Have questions about an event? Ask a staff member!"
+                android:textSize="18sp"/>
         </LinearLayout>
     </LinearLayout>
 

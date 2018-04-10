@@ -28,7 +28,8 @@
                     android:id="@+id/tvLongtermLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Long-term lottery (morning) Lottery, for "/>
+                    android:text="Long-term lottery (morning) Lottery, for "
+                    android:textSize="18sp"/>
 
                 <TextView
                     android:id="@+id/tvLongtermDate"
@@ -70,7 +71,8 @@
                     android:id="@+id/tvEBedLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="E-bed (evening) Lottery, for "/>
+                    android:text="E-bed (evening) Lottery, for "
+                    android:textSize="18sp"/>
 
                 <TextView
                     android:id="@+id/tvEBedDate"
