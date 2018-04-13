@@ -1,5 +1,6 @@
 package com.y2y.android;
 
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -24,22 +25,14 @@ public class HomeFragment extends Fragment {
     private TextView tvStayLabel;
     private TextView tvWarningLabel;
     private TextView tvLockerLabel;
-    private Button btnFetch;
 
-
-    public interface HomeFragmentListener {
-        public void onFetchDetailsStay(View v) throws UnsupportedEncodingException;
-        public void onFetchBed(View v) throws UnsupportedEncodingException;
-
-    }
-
-    HomeFragmentListener HFL;
+    ControlFragInterface HFL;
 
 
     @Override
     public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
         super.onAttach(context);
-        HFL = (HomeFragmentListener) context;  //context is a handle to the main activity, let's bind it to our interface.
+        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, let's bind it to our interface.
     }
 
 
@@ -52,19 +45,6 @@ public class HomeFragment extends Fragment {
         tvStayLabel = (TextView)view.findViewById(R.id.tvStayLabel);
         tvWarningLabel = (TextView)view.findViewById(R.id.tvWarningLabel);
         tvLockerLabel = (TextView)view.findViewById(R.id.tvLockerLabel);
-        btnFetch = (Button)view.findViewById(R.id.btnFetch);
-
-        btnFetch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    HFL.onFetchDetailsStay(v);
-                    HFL.onFetchBed(v);
-                } catch (UnsupportedEncodingException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
 
         return view;
     }
@@ -72,6 +52,13 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        try {
+            HFL.onFetchDetailsStay(view);
+            HFL.onFetchBed(view);
+        } catch (UnsupportedEncodingException e1) {
+            e1.printStackTrace();
+        }
+
         super.onViewCreated(view, savedInstanceState);
     }
 
@@ -82,7 +69,7 @@ public class HomeFragment extends Fragment {
         tvStayLabel.setText("Last Day of Stay: " + the_staydate);
         String the_majorwarnings = records.getJSONObject(0).getString("Major_Warnings__c");
         String the_minorwarnings = records.getJSONObject(0).getString("Minor_Warnings__c");
-        tvWarningLabel.setText("Warnings: " + the_majorwarnings + ", " + the_minorwarnings);
+        tvWarningLabel.setText("Major Warnings: " + the_majorwarnings + "\nMinor Warnings: " + the_minorwarnings);
         String the_lockercombo = records.getJSONObject(0).getString("Locker_Combination__c");
         tvLockerLabel.setText("Locker Combo: " + the_lockercombo);
 

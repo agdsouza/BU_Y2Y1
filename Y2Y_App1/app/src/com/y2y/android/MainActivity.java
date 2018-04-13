@@ -60,7 +60,7 @@ import java.util.ArrayList;
 /**
  * Main activity
  */
-public class MainActivity extends SalesforceActivity implements HomeFragment.HomeFragmentListener{
+public class MainActivity extends SalesforceActivity implements ControlFragInterface{
 
     private RestClient client;
     private ArrayAdapter<String> listAdapter;
@@ -90,23 +90,6 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 		// set the hamburger to open up the drawer
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
-		// display the home screen as a default
-		displaySelectedScreen(R.id.nav_home);
-
-		NavigationView navigationView = findViewById(R.id.nav_view);
-		navigationView.setNavigationItemSelectedListener(
-				new NavigationView.OnNavigationItemSelectedListener() {
-					@Override
-					public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-						int id = item.getItemId();
-						item.setChecked(true);
-						mDrawerLayout.closeDrawers();
-						displaySelectedScreen(id);
-						return true;
-					}
-				}
-		);
-
 	}
 
 	
@@ -126,6 +109,23 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 	public void onResume(RestClient client) {
         // Keeping reference to rest client
         this.client = client;
+
+		// display the home screen as a default
+		displaySelectedScreen(R.id.nav_home);
+
+		NavigationView navigationView = findViewById(R.id.nav_view);
+		navigationView.setNavigationItemSelectedListener(
+				new NavigationView.OnNavigationItemSelectedListener() {
+					@Override
+					public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+						int id = item.getItemId();
+						item.setChecked(true);
+						mDrawerLayout.closeDrawers();
+						displaySelectedScreen(id);
+						return true;
+					}
+				}
+		);
 
 		// Show everything
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
@@ -158,11 +158,11 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 	// Essentially trying to get this soql from several soql queries:
 	// sendRequest("SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='0031D00000AWSc7QAH')");
 	public void onFetchBed(View v) throws UnsupportedEncodingException {
-		sendSpecialSoqlRequest("SELECT Contact.Id FROM Contact WHERE (Name='Monica Chiu')");
+		sendBedSoqlRequest1("SELECT Contact.Id FROM Contact WHERE (Name='Monica Chiu')");
 	}
 
 	public void onFetchLottery(View v) throws UnsupportedEncodingException {
-		sendRequest("SELECT Name, Major_Warnings__c, Minor_Warnings__c, Last_Date_of_Stay__c, Locker_Combination__c, Id FROM Contact WHERE (Name='Monica Chiu')");
+		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10 AND Type__c != 'Last Call') ORDER BY Type__c ASC");
 
 	}
 
@@ -179,8 +179,15 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 					public void run() {
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
-							HomeFragment receivingFragment = (HomeFragment) getFragmentManager().findFragmentByTag("HomeScreen");
-							receivingFragment.setDetailsStay(records);
+							// FIND OUT HOW TO CHECK CURRENT FRAGMENT AND CREATE ONE BASED ON CURRENT FRAGMENT
+							// Currently in home screen so display details of stay
+							HomeFragment homeFragment = (HomeFragment) getFragmentManager().findFragmentByTag("HomeScreen");
+							LotteryFragment lotteryFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
+							if (homeFragment != null && homeFragment.isVisible()) {
+								homeFragment.setDetailsStay(records);
+							} else if (lotteryFragment != null && lotteryFragment.isVisible()) {
+								lotteryFragment.setLottery(records);
+							}
 
 						} catch (Exception e) {
 							onError(e);
@@ -202,7 +209,7 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 		});
 	}
 
-	public void sendSpecialSoqlRequest(String soql) throws UnsupportedEncodingException {
+	public void sendBedSoqlRequest1(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
 		client.sendAsync(restRequest, new AsyncRequestCallback() {
@@ -217,7 +224,7 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 							String guest_id = records.getJSONObject(0).getString("Id");
 							String soql_the_bedName = "SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
 									guest_id + "')";
-							sendBedSoqlRequest(soql_the_bedName);
+							sendBedSoqlRequest2(soql_the_bedName);
 						} catch (Exception e) {
 							onError(e);
 						}
@@ -235,7 +242,7 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 		});
 	}
 
-	public void sendBedSoqlRequest(String soql) throws UnsupportedEncodingException {
+	public void sendBedSoqlRequest2(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
 		client.sendAsync(restRequest, new AsyncRequestCallback() {
@@ -271,27 +278,31 @@ public class MainActivity extends SalesforceActivity implements HomeFragment.Hom
 
 	private void displaySelectedScreen(int id) {
 		Fragment fragment = null;
-
+		String tag = null;
 		// set the initialized fragment to the fragment with the corresponding id
 		switch(id) {
 			case R.id.nav_home:
 				fragment = new HomeFragment();
+				tag = "HomeScreen";
 				break;
 			case R.id.nav_lottery:
 				fragment = new LotteryFragment();
+				tag = "LotteryScreen";
 				break;
 			case R.id.nav_schedule:
 				fragment = new ScheduleFragment();
+				tag = "ScheduleScreen";
 				break;
 			case R.id.nav_handbook:
 				fragment = new HandbookFragment();
+				tag = "HandbookScreen";
 				break;
 		}
 
 		// set the current screen to the fragment inputted as an argument
-		if (fragment != null) {
+		if (fragment != null && tag != null) {
 			FragmentTransaction ft = getFragmentManager().beginTransaction();
-			ft.add(R.id.content_frame,fragment,"HomeScreen");
+			ft.add(R.id.content_frame,fragment,tag);
 			ft.replace(R.id.content_frame, fragment);
 			ft.commit();
 		}

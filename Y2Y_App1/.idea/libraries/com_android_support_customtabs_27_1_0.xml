@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.android.support:customtabs-27.1.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.0.aar/a4dfb2a6b8fb65c65e5a7c3efbfa5d34/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.0.aar/a4dfb2a6b8fb65c65e5a7c3efbfa5d34/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.0.aar/4b3fe182e9038e3060f41369bc6e21d4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.0.aar/4b3fe182e9038e3060f41369bc6e21d4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
