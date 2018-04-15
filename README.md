@@ -1,9 +1,9 @@
-# General Information
-This is the repository for our CS591E3: Mobile App Development class project.
-The app provides at way for residents at the Y2Y Shelter to track their stay.
+## General Information
+This is the repository for our CS591E3: Mobile App Development class project.  
+The app provides at way for residents at the Y2Y Shelter to track their stay.  
 Team Members: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Katz.
 
-# Timelines
+## Timelines
 ##### Week 1
 * Understand how to do Salesforce 
 * Blueprint for each activity 
