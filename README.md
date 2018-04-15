@@ -2,9 +2,6 @@
 Team Members: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Katz.  
 This is the repository for our CS591E3: Mobile App Development class project. The app provides at way for residents at the Y2Y Shelter to track their stay.
 
-##### Table of Contents
-[Headers](#headers)
-
 ## Timeline
 ##### Week 1
 * Understand how to do Salesforce 
