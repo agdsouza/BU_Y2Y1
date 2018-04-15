@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Monica\\Dropbox\\Senior Spring 2017\\CS591 E3\\CS591E3 Final Project\\Y2Y_App1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_App1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Monica\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\974d182e9b864626b6d278b83b1a5743\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\mcsbu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\2875c0284cfc8a361b99186569882c2f\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

@@ -1,421 +1,421 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-MERGED from [:libs:SmartSync] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:design:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0f0cb9ba793ac4e1ffb12b20c381d076\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
-MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\974d182e9b864626b6d278b83b1a5743\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\53fba4174b5b51e07fee19f5427cdb5b\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\1d6ee6ad214d79113f335751d4894fac\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\3f47dba84e7c5c12d2c4d91bb95988da\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\38a4ffee7557ba4c39cfe16c5a08001f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\1c34eee1fc90d583fdfde715dea27a49\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\541b6d51c3002a6c88264049591ec4f2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\cc004a23d9f61ed65b69f3724233bc02\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5247f35234d1376b5a23c606cf10296f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cd5251c5d383f3ca8aecb73e2a1523cb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\baa495c7cb138b9be326899d069fe970\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51c80d29e5ef153b85de299207219350\AndroidManifest.xml:17:1-22:12
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\b9a18e4489c180923a286a48aff19e2b\AndroidManifest.xml:2:1-4:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\596eba970e17ac0ddb586cc99eae05c4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\734256c934f3c40e7850e0da20ce9b25\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\d85a570aad6f0d49e8bb81ad296ff2b2\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\2ef548f1cc77996cb24b5622a48be968\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1e39d3ef0e22e009888746e5d7a479dc\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\49497c3c3baa273807fe3a2b0928aad1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ce8163c3ff561f9e5d6e0467797daeda\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+MERGED from [:libs:SmartSync] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\f546eb473e88069513701a3ac12b7d6a\AndroidManifest.xml:17:1-22:12
+MERGED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
+MERGED from [com.android.support:customtabs:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\9b7d0e5edc7ba10245271918dcac4d3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\2875c0284cfc8a361b99186569882c2f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\816b67501ec37bbea07db63c731533c5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c13c7888bdc47e26be9ce2e6520ab25a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\363daddc11ebb5b3b1a3bec407d44119\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\0156060a68d54538d2fdc574fe9eed90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\c6871c0d80418f57d681a2d3293c4911\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\cb6154dc71c9053195abfef125fa66b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\452dcb36c59a1f19fb9d7a14ec959112\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1e931e7547a161b2add1c719d0677729\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a7f6c4cc2d450c9c87391198beaca62b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b5e26e009aa1704a219f448422624058\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\287079e5be7e4621bccb282699b32583\AndroidManifest.xml:17:1-22:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\f4540807988afe468c72e6f30b8f744d\AndroidManifest.xml:2:1-4:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\102dd0657385b136fdb530e606d8b7e8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\261477e67cc3b47030ce50b031912c6b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fe56acd3eb6dd687384e0d48d3599346\AndroidManifest.xml:17:1-22:12
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b98eabc50c31a6dd6b4a103585357744\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\9c9e24d4cc30da64b710b66a30eb46c9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\569074dde5c2b8d11403d03c81a05ea9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\b15fb8f635d83078d0a976a0d01e7692\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\2752995d4e01512490f239693b23bd6e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\9e7c2227ca1847eb4f185b82e1374f5a\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
 	package
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:4:2-27
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:4:2-27
 	android:versionName
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:6:2-27
-		INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml
-		INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:6:2-27
+		INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
+		INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:5:2-25
-		INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml
-		INJECTED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:5:2-25
+		INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
+		INJECTED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:7:2-40
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:7:2-40
 application
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:9:2-85:16
-MERGED from [:libs:SmartSync] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
-MERGED from [:libs:SmartSync] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
-MERGED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\53fba4174b5b51e07fee19f5427cdb5b\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\53fba4174b5b51e07fee19f5427cdb5b\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:22:5-26:19
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\d85a570aad6f0d49e8bb81ad296ff2b2\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\d85a570aad6f0d49e8bb81ad296ff2b2\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\2ef548f1cc77996cb24b5622a48be968\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\2ef548f1cc77996cb24b5622a48be968\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1e39d3ef0e22e009888746e5d7a479dc\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1e39d3ef0e22e009888746e5d7a479dc\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\49497c3c3baa273807fe3a2b0928aad1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\49497c3c3baa273807fe3a2b0928aad1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ce8163c3ff561f9e5d6e0467797daeda\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ce8163c3ff561f9e5d6e0467797daeda\AndroidManifest.xml:5:5-20
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:9:2-85:16
+MERGED from [:libs:SmartSync] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartSync] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\816b67501ec37bbea07db63c731533c5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\816b67501ec37bbea07db63c731533c5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:22:5-26:19
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\9c9e24d4cc30da64b710b66a30eb46c9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\9c9e24d4cc30da64b710b66a30eb46c9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\569074dde5c2b8d11403d03c81a05ea9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\569074dde5c2b8d11403d03c81a05ea9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\b15fb8f635d83078d0a976a0d01e7692\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\b15fb8f635d83078d0a976a0d01e7692\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\2752995d4e01512490f239693b23bd6e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\2752995d4e01512490f239693b23bd6e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\9e7c2227ca1847eb4f185b82e1374f5a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\9e7c2227ca1847eb4f185b82e1374f5a\AndroidManifest.xml:5:5-20
 	android:label
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:10:6-38
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:10:6-38
 	android:manageSpaceActivity
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:12:3-81
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:12:3-81
 	android:icon
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:9:15-48
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:9:15-48
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:11:3-34
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:11:3-34
 activity#com.y2y.android.MainActivity
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:15:3-22:14
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:15:3-22:14
 	android:label
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:16:7-39
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:16:7-39
 	android:theme
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:17:4-35
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:17:4-35
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:15:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:18:4-21:20
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:18:4-21:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:19:5-57
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:19:5-57
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:19:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:20:5-65
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:20:15-62
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:20:15-62
 uses-sdk
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:87:5-88:41
-MERGED from [:libs:SmartSync] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartSync] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0f0cb9ba793ac4e1ffb12b20c381d076\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\0f0cb9ba793ac4e1ffb12b20c381d076\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\974d182e9b864626b6d278b83b1a5743\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\974d182e9b864626b6d278b83b1a5743\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\53fba4174b5b51e07fee19f5427cdb5b\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\53fba4174b5b51e07fee19f5427cdb5b\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\1d6ee6ad214d79113f335751d4894fac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\1d6ee6ad214d79113f335751d4894fac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\3f47dba84e7c5c12d2c4d91bb95988da\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\3f47dba84e7c5c12d2c4d91bb95988da\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\38a4ffee7557ba4c39cfe16c5a08001f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\38a4ffee7557ba4c39cfe16c5a08001f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\1c34eee1fc90d583fdfde715dea27a49\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\1c34eee1fc90d583fdfde715dea27a49\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\541b6d51c3002a6c88264049591ec4f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\541b6d51c3002a6c88264049591ec4f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\cc004a23d9f61ed65b69f3724233bc02\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\cc004a23d9f61ed65b69f3724233bc02\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5247f35234d1376b5a23c606cf10296f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5247f35234d1376b5a23c606cf10296f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cd5251c5d383f3ca8aecb73e2a1523cb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cd5251c5d383f3ca8aecb73e2a1523cb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\baa495c7cb138b9be326899d069fe970\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\baa495c7cb138b9be326899d069fe970\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51c80d29e5ef153b85de299207219350\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51c80d29e5ef153b85de299207219350\AndroidManifest.xml:20:5-44
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\b9a18e4489c180923a286a48aff19e2b\AndroidManifest.xml:3:3-40
-MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\b9a18e4489c180923a286a48aff19e2b\AndroidManifest.xml:3:3-40
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\596eba970e17ac0ddb586cc99eae05c4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\596eba970e17ac0ddb586cc99eae05c4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\734256c934f3c40e7850e0da20ce9b25\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\734256c934f3c40e7850e0da20ce9b25\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\d85a570aad6f0d49e8bb81ad296ff2b2\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\d85a570aad6f0d49e8bb81ad296ff2b2\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\2ef548f1cc77996cb24b5622a48be968\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\2ef548f1cc77996cb24b5622a48be968\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1e39d3ef0e22e009888746e5d7a479dc\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\1e39d3ef0e22e009888746e5d7a479dc\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\49497c3c3baa273807fe3a2b0928aad1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\49497c3c3baa273807fe3a2b0928aad1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ce8163c3ff561f9e5d6e0467797daeda\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\ce8163c3ff561f9e5d6e0467797daeda\AndroidManifest.xml:4:5-43
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:87:5-88:41
+MERGED from [:libs:SmartSync] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartSync] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\f546eb473e88069513701a3ac12b7d6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\f546eb473e88069513701a3ac12b7d6a\AndroidManifest.xml:20:5-44
+MERGED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:customtabs:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\9b7d0e5edc7ba10245271918dcac4d3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\9b7d0e5edc7ba10245271918dcac4d3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\2875c0284cfc8a361b99186569882c2f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\2875c0284cfc8a361b99186569882c2f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\816b67501ec37bbea07db63c731533c5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\816b67501ec37bbea07db63c731533c5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c13c7888bdc47e26be9ce2e6520ab25a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c13c7888bdc47e26be9ce2e6520ab25a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\363daddc11ebb5b3b1a3bec407d44119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\363daddc11ebb5b3b1a3bec407d44119\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\0156060a68d54538d2fdc574fe9eed90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\0156060a68d54538d2fdc574fe9eed90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\c6871c0d80418f57d681a2d3293c4911\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\c6871c0d80418f57d681a2d3293c4911\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\cb6154dc71c9053195abfef125fa66b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\cb6154dc71c9053195abfef125fa66b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\452dcb36c59a1f19fb9d7a14ec959112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\452dcb36c59a1f19fb9d7a14ec959112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1e931e7547a161b2add1c719d0677729\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\1e931e7547a161b2add1c719d0677729\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a7f6c4cc2d450c9c87391198beaca62b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\a7f6c4cc2d450c9c87391198beaca62b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b5e26e009aa1704a219f448422624058\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b5e26e009aa1704a219f448422624058\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\287079e5be7e4621bccb282699b32583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\287079e5be7e4621bccb282699b32583\AndroidManifest.xml:20:5-44
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\f4540807988afe468c72e6f30b8f744d\AndroidManifest.xml:3:3-40
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.7] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\android-database-sqlcipher-3.5.7.aar\f4540807988afe468c72e6f30b8f744d\AndroidManifest.xml:3:3-40
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\102dd0657385b136fdb530e606d8b7e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\102dd0657385b136fdb530e606d8b7e8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\261477e67cc3b47030ce50b031912c6b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\261477e67cc3b47030ce50b031912c6b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fe56acd3eb6dd687384e0d48d3599346\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fe56acd3eb6dd687384e0d48d3599346\AndroidManifest.xml:20:5-44
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b98eabc50c31a6dd6b4a103585357744\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b98eabc50c31a6dd6b4a103585357744\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\9c9e24d4cc30da64b710b66a30eb46c9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\9c9e24d4cc30da64b710b66a30eb46c9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\569074dde5c2b8d11403d03c81a05ea9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\569074dde5c2b8d11403d03c81a05ea9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\b15fb8f635d83078d0a976a0d01e7692\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\b15fb8f635d83078d0a976a0d01e7692\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\2752995d4e01512490f239693b23bd6e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\2752995d4e01512490f239693b23bd6e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\9e7c2227ca1847eb4f185b82e1374f5a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\9e7c2227ca1847eb4f185b82e1374f5a\AndroidManifest.xml:4:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:88:9-38
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:88:9-38
 	android:minSdkVersion
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:87:15-41
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:87:15-41
 permission#com.y2y.android.C2D_MESSAGE
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:95:5-96:47
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:95:5-96:47
 	android:protectionLevel
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:96:9-44
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:96:9-44
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:95:17-59
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:95:17-59
 uses-permission#com.y2y.android.C2D_MESSAGE
-ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:98:5-67
+ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:98:5-67
 	android:name
-		ADDED from C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\AndroidManifest.xml:98:22-64
+		ADDED from C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:98:22-64
 activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
-ADDED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
+ADDED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
 	android:exported
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
+		ADDED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
 	android:theme
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
+		ADDED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
 	android:name
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
+		ADDED from [:libs:SmartStore] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-68
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-68
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:23:5-82
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
 uses-permission-sdk-23#android.permission.USE_FINGERPRINT
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
 service#com.salesforce.androidsdk.auth.AuthenticatorService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
 intent-filter#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
 action#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
 meta-data#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
 activity#com.salesforce.androidsdk.ui.LoginActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
 	android:launchMode
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
 activity#com.salesforce.androidsdk.ui.PasscodeActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
 activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
 activity#com.salesforce.androidsdk.ui.ServerPickerActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
 activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
 activity#com.salesforce.androidsdk.auth.idp.IDPCodeGeneratorActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
 activity#com.salesforce.androidsdk.ui.DevInfoActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
 receiver#com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
 intent-filter#android.intent.category.DEFAULT+com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
 action#com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
 category#android.intent.category.DEFAULT
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
 	android:permission
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.y2y.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
 category#${applicationId}
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 category#com.y2y.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 service#com.salesforce.androidsdk.push.SFDCGcmListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
 service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
 intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
 action#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
 service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
 receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
 service#com.salesforce.androidsdk.push.PushService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
 service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
+ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\0ca70409793ce4d4531c9185a858fe4c\AndroidManifest.xml:24:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\ab9bf8e00c7ea40f81429d05d04fd2e5\AndroidManifest.xml:24:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\2b82c2d69875bb41f503861147e75fbc\AndroidManifest.xml:24:22-64
+		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\868eac3640a1dc776b99c81f35761d78\AndroidManifest.xml:24:22-64
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\9b2ef318677e43c1805c71c09a91dcbf\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\c378e390541936376778338ea7a04e01\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\46435406d0296f1de3da77b9a8a315d6\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\mcsbu\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\5d8aaf2fe669b900759ced90280ab8a0\AndroidManifest.xml:24:13-58
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+ADDED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from [:libs:SalesforceAnalytics] C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-76
+		ADDED from [:libs:SalesforceAnalytics] C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-76

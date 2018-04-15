@@ -98,10 +98,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// Hide everything until we are logged in
 		findViewById(R.id.drawer_layout).setVisibility(View.INVISIBLE);
 
-//		// Create list adapter
-//		listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new ArrayList<String>());
-//		((ListView) findViewById(R.id.contacts_list)).setAdapter(listAdapter);
-
 		super.onResume();
 	}
 
@@ -131,24 +127,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
 	}
 
-	/**
-	 * Called when "Logout" button is clicked. 
-	 * 
-	 * @param v
-	 */
-	public void onLogoutClick(View v) {
-		SalesforceSDKManager.getInstance().logout(this);
-	}
-	
-	/**
-	 * Called when "Clear" button is clicked. 
-	 * 
-	 * @param v
-	 */
-	public void onClearClick(View v) {
-		listAdapter.clear();
-	}	
-
 
 	public void onFetchDetailsStay(View v) throws UnsupportedEncodingException {
 		sendRequest("SELECT Name, Major_Warnings__c, Minor_Warnings__c, Last_Date_of_Stay__c, Locker_Combination__c, Id FROM Contact WHERE (Name='Monica Chiu')");
@@ -163,7 +141,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 
 	public void onFetchLottery(View v) throws UnsupportedEncodingException {
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10 AND Type__c != 'Last Call') ORDER BY Type__c ASC");
-
 	}
 
 

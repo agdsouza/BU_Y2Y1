@@ -25,6 +25,7 @@ public class HomeFragment extends Fragment {
     private TextView tvStayLabel;
     private TextView tvWarningLabel;
     private TextView tvLockerLabel;
+    private Button btnFetch;
 
     ControlFragInterface HFL;
 
@@ -45,20 +46,25 @@ public class HomeFragment extends Fragment {
         tvStayLabel = (TextView)view.findViewById(R.id.tvStayLabel);
         tvWarningLabel = (TextView)view.findViewById(R.id.tvWarningLabel);
         tvLockerLabel = (TextView)view.findViewById(R.id.tvLockerLabel);
+        btnFetch = (Button)view.findViewById(R.id.btnFetch);
 
+        btnFetch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    HFL.onFetchDetailsStay(v);
+                    HFL.onFetchBed(v);
+                } catch (UnsupportedEncodingException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
         return view;
     }
 
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        try {
-            HFL.onFetchDetailsStay(view);
-            HFL.onFetchBed(view);
-        } catch (UnsupportedEncodingException e1) {
-            e1.printStackTrace();
-        }
-
         super.onViewCreated(view, savedInstanceState);
     }
 

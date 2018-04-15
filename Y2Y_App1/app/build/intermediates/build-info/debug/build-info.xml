@@ -2,81 +2,106 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="24"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xxxhdpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.0.1"
-    timestamp="1523647592839"
-    token="1709352490205781726"
+    timestamp="1523824832276"
+    token="3433747033391086078"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="850" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="148" />
+        duration="26" />
     <task
         name="verifier"
-        duration="94" />
+        duration="71" />
 
     <artifact
-        location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1523645870203"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1523647592839"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1523824832276"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Monica\Dropbox\Senior Spring 2017\CS591 E3\CS591E3 Final Project\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\mcsbu\OneDrive\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
