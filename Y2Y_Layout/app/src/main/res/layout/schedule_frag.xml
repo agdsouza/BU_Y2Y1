@@ -24,7 +24,7 @@
                 android:layout_marginBottom="10sp"
                 android:layout_marginLeft="10sp"
                 android:text="Upcoming Events"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:id="@+id/event_frag"
