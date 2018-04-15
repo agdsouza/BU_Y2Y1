@@ -1,20 +1,48 @@
-Team: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Cats
-Meeting: Thursdays 2:30
+**Table of Contents**
 
-This is the repository for our CS591E3:Mobile App Development class project.
+[TOCM]
 
-Login resources: Google, Twitter, Facebook and own
+[TOC]
 
-Third-party authentication: Ray
+#General Information
+This is the repository for our CS591E3: Mobile App Development class project. 
+The app provides at way for residents at the Y2Y Shelter to track their stay.
+Team Members: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Katz.
 
+#Timelines
+#####Week 1
+• Understand how to do Salesforce 
+• Blueprint for each activity 
+• Maybe set up slide out menu?
 
-Deadlines:
-April 3: Research present
+#####Week 2
+• Get third party authentication 
+• Access salesforce database using REST API 
+• (Optional) Finish layout (with navigation bar)
 
-Weekly Goals
-Integrate Salesforce into third party auth
-Improve UI to match wireframes
-Research Saleforce surveys and how to implement in android 
-Contact developers at Y2Y to get information our coordinator was unable to provide
+#####Week 3
+• Finish home page and nav bar 
+• Combine Google and Facebook authentication 
+• Get all the needed Salesforce queries 
+• Research Salesforce surveys 
+• Meet with coordinator to discuss issue with authentication
 
+#####Week 4
+• Setup handbook pdf 
+• Pull events from Google Calendar API 
+• Combine layout with the main Salesforce app 
+• Research action items 
+• Different method for surveys 
+• Find method to store feedback in Salesforce
+
+#####Week 5
+• Finish implementing surveys 
+•Action items 
+• Feedback page 
+• Oauth!!!!! 
+• Merge standalone apps with main Salesforce app
+
+#####Week 6
+• Make app prettier 
+• Debug!!!
 
