@@ -9,12 +9,7 @@ package com.y2y.android;
 
 public final class Manifest {
   public static final class permission {
-    /**
-     * GCM permission to ensure that only this application can
-     * receive the messages and registration result. This must be of
-     * the format <app-package-name>.C2D_MESSAGE for it to work.
-     */
-    public static final String C2D_MESSAGE="com.y2y.android.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="com.y2y.android.permission.C2D_MESSAGE";
   }
 
 }

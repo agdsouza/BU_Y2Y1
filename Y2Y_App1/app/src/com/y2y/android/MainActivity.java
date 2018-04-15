@@ -70,6 +70,8 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	private Toolbar mToolbar;
 
 	private String soql_temp = "empty";
+    private String current_screen = null;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +92,21 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// set the hamburger to open up the drawer
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
+        displaySelectedScreen(R.id.nav_home);
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(
+                new NavigationView.OnNavigationItemSelectedListener() {
+                    @Override
+                    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                        int id = item.getItemId();
+                        item.setChecked(true);
+                        mDrawerLayout.closeDrawers();
+                        displaySelectedScreen(id);
+                        return true;
+                    }
+                }
+        );
 	}
 
 	
@@ -105,23 +122,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	public void onResume(RestClient client) {
         // Keeping reference to rest client
         this.client = client;
-
-		// display the home screen as a default
-		displaySelectedScreen(R.id.nav_home);
-
-		NavigationView navigationView = findViewById(R.id.nav_view);
-		navigationView.setNavigationItemSelectedListener(
-				new NavigationView.OnNavigationItemSelectedListener() {
-					@Override
-					public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-						int id = item.getItemId();
-						item.setChecked(true);
-						mDrawerLayout.closeDrawers();
-						displaySelectedScreen(id);
-						return true;
-					}
-				}
-		);
 
 		// Show everything
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);

@@ -1,4 +1,7 @@
-#Sun Apr 15 16:40:42 EDT 2018
+#Sun Apr 15 17:35:20 EDT 2018
 base.0=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_App1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_App1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
