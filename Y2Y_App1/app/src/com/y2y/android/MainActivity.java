@@ -299,12 +299,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	public boolean onOptionsItemSelected(MenuItem item) {
 
 		if (mToggle.onOptionsItemSelected(item)) {
-			Toast.makeText(this, "woah", Toast.LENGTH_SHORT).show();
 			return true;
-		}
-
-		else {
-			Toast.makeText(this, "haha", Toast.LENGTH_SHORT).show();
 		}
 
 		return super.onOptionsItemSelected(item);
