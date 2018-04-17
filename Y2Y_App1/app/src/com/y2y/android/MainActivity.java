@@ -55,7 +55,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 
 import java.io.UnsupportedEncodingException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * Main activity
@@ -130,7 +133,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 
 	public void onFetchDetailsStay(View v) throws UnsupportedEncodingException {
 		sendRequest("SELECT Name, Major_Warnings__c, Minor_Warnings__c, Last_Date_of_Stay__c, Locker_Combination__c, Id FROM Contact WHERE (Name='Monica Chiu')");
-
 	}
 
 	// Essentially trying to get this soql from several soql queries:
@@ -140,7 +142,12 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	}
 
 	public void onFetchLottery(View v) throws UnsupportedEncodingException {
-		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10 AND Type__c != 'Last Call') ORDER BY Type__c ASC");
+		// Get current date in expected format
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		String date = df.format(Calendar.getInstance().getTime());
+		String soqlquery = "SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
+//		sendRequest(soqlquery);
+		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
 
