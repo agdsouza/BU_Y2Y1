@@ -28,11 +28,14 @@
 
             <LinearLayout
                 android:id="@+id/event_frag"
-                android:layout_width="500dp"
+                android:layout_width="match_parent"
                 android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:orientation="vertical">
 
                 <ListView
+                    android:id="@+id/lvEvents"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </LinearLayout>

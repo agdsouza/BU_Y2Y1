@@ -20,6 +20,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -40,6 +42,7 @@ import com.google.api.services.calendar.model.Events;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 import pub.devrel.easypermissions.AfterPermissionGranted;
@@ -54,6 +57,11 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
     private Button mCallApiButton;
     ProgressDialog mProgress;
 
+    private ListView lvEvents;
+    private ListAdapter lvAdapter;
+    private ArrayList<ListEvent> eventArray;
+    private Context vCont;
+
     static final int REQUEST_ACCOUNT_PICKER = 1000;
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
@@ -67,24 +75,26 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.schedule_frag, container, false);
-
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+        View view = inflater.inflate(R.layout.schedule_frag, container, false);
         mOutputText = (TextView) view.findViewById(R.id.tvSchedHeader);
-
+        lvEvents = (ListView) view.findViewById(R.id.lvEvents);
+        eventArray = new ArrayList<ListEvent>();
         mProgress = new ProgressDialog(getActivity());
 
         // Initialize credentials and service object.
         mCredential = GoogleAccountCredential.usingOAuth2(
                 getActivity().getApplicationContext(), Arrays.asList(SCOPES))
                 .setBackOff(new ExponentialBackOff());
-
         getResultsFromApi();
+        return view;
+    }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        Log.e("HEY", Integer.toString(eventArray.size()));
+        vCont = view.getContext();
 
     }
 
@@ -330,7 +340,7 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
             DateTime now = new DateTime(System.currentTimeMillis());
             List<String> eventStrings = new ArrayList<String>();
             Events events = mService.events().list("y2yapp2018@gmail.com")
-                    .setMaxResults(10)
+                    .setMaxResults(3)
                     .setTimeMin(now)
                     .setOrderBy("startTime")
                     .setSingleEvents(true)
@@ -340,14 +350,40 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
             for (Event event : items) {
                 DateTime start = event.getStart().getDateTime();
                 DateTime end = event.getEnd().getDateTime();
+                DateTime date = event.getStart().getDate();
+                String startString;
+                String endString;
+                String dateString;
+//                if (start == null) {
+//                    // All-day events don't have start times, so just use
+//                    // the start date.
+//                    start = event.getStart().getDate();
+//                }
                 if (start == null) {
-                    // All-day events don't have start times, so just use
-                    // the start date.
-                    start = event.getStart().getDate();
+                    startString = "";
                 }
+                else {
+                    startString = start.toString();
+                }
+                if (end == null) {
+                    endString = "";
+                }
+                else {
+                    endString = end.toString();
+                }
+                if (date == null) {
+                    dateString = "";
+                }
+                else {
+                    dateString = date.toString();
+                }
+                ListEvent e = new ListEvent(event.getSummary().toString(), startString, endString, dateString);
+                eventArray.add(e);
+                Log.e("HELLO", e.getEventName());
                 eventStrings.add(
                         String.format("%s (%s) -> (%s)", event.getSummary(), start, end));
             }
+
             return eventStrings;
         }
 
@@ -364,8 +400,10 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
             if (output == null || output.size() == 0) {
                 mOutputText.setText("No results returned.");
             } else {
-                output.add(0, "Data retrieved using the Google Calendar API:");
-                mOutputText.setText(TextUtils.join("\n", output));
+//                output.add(0, "Data retrieved using the Google Calendar API:");
+//                mOutputText.setText(TextUtils.join("\n", output));
+                lvAdapter = new EventCustomAdapter(vCont, eventArray);
+                lvEvents.setAdapter(lvAdapter);
             }
         }
 
