@@ -7,15 +7,12 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import android.util.Log;
-
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.listener.OnLoadCompleteListener;
 import com.github.barteksc.pdfviewer.listener.OnPageChangeListener;
 import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
 import com.shockwave.pdfium.PdfDocument;
-
 import java.util.List;
 
 public class HandbookFragment extends Fragment implements OnPageChangeListener,OnLoadCompleteListener{
@@ -32,7 +29,7 @@ public class HandbookFragment extends Fragment implements OnPageChangeListener,O
         super.onCreate(savedInstanceState);
         View view = inflater.inflate(R.layout.handbook_frag, container, false);
 
-        pdfView= (PDFView)view.findViewById(R.id.pdfView);
+        pdfView = view.findViewById(R.id.pdfView);
         displayFromAsset(SAMPLE_FILE);
 
         return view;
@@ -44,7 +41,6 @@ public class HandbookFragment extends Fragment implements OnPageChangeListener,O
         pdfView.fromAsset(SAMPLE_FILE)
                 .defaultPage(pageNumber)
                 .enableSwipe(true)
-
                 .swipeHorizontal(false)
                 .onPageChange(this)
                 .enableAnnotationRendering(true)
@@ -57,7 +53,6 @@ public class HandbookFragment extends Fragment implements OnPageChangeListener,O
     @Override
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
-//        setTitle(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
     }
 
 

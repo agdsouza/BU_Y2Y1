@@ -27,7 +27,6 @@
 package com.y2y.android;
 
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.annotation.NonNull;
 
 import android.app.Fragment;
@@ -37,8 +36,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 import android.support.design.widget.NavigationView;
@@ -57,7 +54,6 @@ import org.json.JSONException;
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 
 /**
@@ -66,7 +62,6 @@ import java.util.Calendar;
 public class MainActivity extends SalesforceActivity implements ControlFragInterface{
 
     private RestClient client;
-    private ArrayAdapter<String> listAdapter;
 
 	private DrawerLayout mDrawerLayout;
 	private ActionBarDrawerToggle mToggle;
@@ -95,6 +90,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// set the hamburger to open up the drawer
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
+		// set default screen to be home screen (details of stay)
         displaySelectedScreen(R.id.nav_home);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -130,13 +126,16 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
 	}
 
-
+	// Send soql query through sendRequest
+    // Flow: onFetchDetailsStay -> sendRequest -> HomeFragment's method setDetailsStay to display the data
 	public void onFetchDetailsStay(View v) throws UnsupportedEncodingException {
 		sendRequest("SELECT Name, Major_Warnings__c, Minor_Warnings__c, Last_Date_of_Stay__c, Locker_Combination__c, Id FROM Contact WHERE (Name='Monica Chiu')");
 	}
 
-	// Essentially trying to get this soql from several soql queries:
+	// Need to sendRequest multiple times to get the result needed!
+    // Our full SOQL query but split into a few parts as deeply nested queries are not allowed in SOQL.
 	// sendRequest("SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='0031D00000AWSc7QAH')");
+    // Flow: onFetchBed -> sendBedSoqlRequest1 -> sendBedSoqlRequest2 -> HomeFragment's method setBed to display the data
 	public void onFetchBed(View v) throws UnsupportedEncodingException {
 		sendBedSoqlRequest1("SELECT Contact.Id FROM Contact WHERE (Name='Monica Chiu')");
 	}
@@ -150,7 +149,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
-
 	public void sendRequest(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -163,13 +161,13 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					public void run() {
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
-							// FIND OUT HOW TO CHECK CURRENT FRAGMENT AND CREATE ONE BASED ON CURRENT FRAGMENT
-							// Currently in home screen so display details of stay
+							// Create the fragments to traverse to
 							HomeFragment homeFragment = (HomeFragment) getFragmentManager().findFragmentByTag("HomeScreen");
 							LotteryFragment lotteryFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
+                            // Currently in home screen so display details of stay
 							if (homeFragment != null && homeFragment.isVisible()) {
 								homeFragment.setDetailsStay(records);
-							} else if (lotteryFragment != null && lotteryFragment.isVisible()) {
+							} else if (lotteryFragment != null && lotteryFragment.isVisible()) { // In lottery screen so display lottery info
 								lotteryFragment.setLottery(records);
 							}
 
@@ -259,7 +257,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
-
 	private void displaySelectedScreen(int id) {
 		Fragment fragment = null;
 		String tag = null;
@@ -286,7 +283,8 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// set the current screen to the fragment inputted as an argument
 		if (fragment != null && tag != null) {
 			FragmentTransaction ft = getFragmentManager().beginTransaction();
-			ft.add(R.id.content_frame,fragment,tag);
+			// add to back trace so users can use back button to go to prev fragments
+			ft.add(R.id.content_frame,fragment,tag).addToBackStack("frag");
 			ft.replace(R.id.content_frame, fragment);
 			ft.commit();
 		}
