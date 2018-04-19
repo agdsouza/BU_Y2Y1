@@ -1,6 +1,5 @@
 package com.y2y.android;
 
-import android.*;
 import android.accounts.AccountManager;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -67,7 +66,7 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.schedule_frag, container, false);
+        return inflater.inflate(R.layout.fragment_schedule, container, false);
 
     }
 
