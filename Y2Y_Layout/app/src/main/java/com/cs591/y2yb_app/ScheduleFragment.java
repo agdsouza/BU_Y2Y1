@@ -40,6 +40,12 @@ import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.Events;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.FieldPosition;
+import java.text.ParsePosition;
+import java.text.SimpleDateFormat;
+import java.time.OffsetDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -54,7 +60,6 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
 
     GoogleAccountCredential mCredential;
     private TextView mOutputText;
-    private Button mCallApiButton;
     ProgressDialog mProgress;
 
     private ListView lvEvents;
@@ -67,7 +72,6 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
     static final int REQUEST_PERMISSION_GET_ACCOUNTS = 1003;
 
-    private static final String BUTTON_TEXT = "Call Google Calendar API";
     private static final String PREF_ACCOUNT_NAME = "accountName";
     private static final String[] SCOPES = { CalendarScopes.CALENDAR_READONLY };
 
@@ -354,29 +358,55 @@ public class ScheduleFragment extends Fragment implements EasyPermissions.Permis
                 String startString;
                 String endString;
                 String dateString;
+
 //                if (start == null) {
 //                    // All-day events don't have start times, so just use
 //                    // the start date.
 //                    start = event.getStart().getDate();
 //                }
-                if (start == null) {
-                    startString = "";
-                }
-                else {
+
+                if (date == null){
                     startString = start.toString();
-                }
-                if (end == null) {
-                    endString = "";
-                }
-                else {
+
+                    String[] startDate_splice = startString.split("T");
+                    String startDateString = startDate_splice[0];
+
+                    String[] startTime_splice = startDate_splice[1].split("-");
+                    StringBuilder sb = new StringBuilder(startTime_splice[0]);
+                    sb.delete(4, 11);
+                    startString = sb.toString();
+                    //startString = startTime_splice[0].split("\\.")[0];
+
+
                     endString = end.toString();
+
+                    String[] endDate_splice = endString.split("T");
+                    String endDateString = endDate_splice[0];
+
+                    String[] endTime_splice = endDate_splice[1].split("-");
+                    sb = new StringBuilder(endTime_splice[0]);
+                    sb.delete(4, 11);
+                    endString = sb.toString();
+                    //endString = endTime_splice[0].split("\\.")[0];
+
+                    if (startDateString.equals(endDateString)){
+                        dateString = startDateString;
+                    }
+
+                    else {
+                        dateString = "";
+                        startString = startDateString + " " + startString;
+                        endString = endDateString + " " + endString;
+                    }
+
                 }
-                if (date == null) {
-                    dateString = "";
-                }
+
                 else {
                     dateString = date.toString();
+                    startString = "";
+                    endString = "";
                 }
+
                 ListEvent e = new ListEvent(event.getSummary().toString(), startString, endString, dateString);
                 eventArray.add(e);
                 Log.e("HELLO", e.getEventName());
