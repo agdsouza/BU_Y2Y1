@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Entrance_Survey</string>
+    <string-array name="questions">
+        <item>Able to take care of basic needs?</item>
+        <item>Adults who listen and care about me?</item>
+        <item>Avoiding getting medical help?</item>
+        <item>Daily Guest Rating</item>
+        <item>Do you have a birth certificate?</item>
+        <item>Do you have a criminal record?</item>
+        <item>Do you have a social security card?</item>
+        <item>Do you have a state ID?</item>
+        <item>Do you have children?</item>
+        <item>How did you hear about Y2Y?</item>
+        <item>Interest in public speaking opportunities?</item>
+        <item>Legal issues right now?</item>
+        <item>Maintaining Housing-Learning disability</item>
+        <item>Maintaining Housing-Mental Health</item>
+        <item>Maintaining Housing-Past Head Injury</item>
+        <item>Maintaining Housing-Physical Health</item>
+        <item>Medication that you are not taking?</item>
+        <item>Overnight in adult jail?</item>
+        <item>Overnight in juvenile detention?</item>
+        <item>Owe someone money?</item>
+        <item>Peers who listen to and care about me?</item>
+        <item>Physical health make housing difficult?</item>
+        <item>Positive Social Connections?</item>
+        <item>Substances create future housing difficult</item>
+        <item>Substances led to previous housing prob</item>
+    </string-array>
+</resources>
