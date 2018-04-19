@@ -27,7 +27,7 @@ public class HandbookFragment extends Fragment implements OnPageChangeListener,O
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        View view = inflater.inflate(R.layout.handbook_frag, container, false);
+        View view = inflater.inflate(R.layout.fragment_handbook, container, false);
 
         pdfView = view.findViewById(R.id.pdfView);
         displayFromAsset(SAMPLE_FILE);

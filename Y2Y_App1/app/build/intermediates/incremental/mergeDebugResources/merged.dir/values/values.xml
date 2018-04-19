@@ -69,8 +69,8 @@
     <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
     <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#cde22d</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -1120,6 +1120,7 @@
     <string name="drawer_closed">drawer closed</string>
     <string name="drawer_opened">drawer opened</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="feedbacktext">Tell us what you like about Y2Y, or if you have suggestions for how we can be better!</string>
     <string name="fetch_accounts_button">Fetch Accounts</string>
     <string name="fetch_contacts_button">Fetch Contacts</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
@@ -1248,6 +1249,7 @@
     <string name="sf__ssl_untrusted">Untrusted Certificate Authority</string>
     <string name="sf__switch_account">Switch Account</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="submit">Submit</string>
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
     <string name="tagmanager_preview_dialog_title">Preview</string>
@@ -1268,6 +1270,7 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2389,6 +2392,10 @@
 <item name="castIntroOverlayStyle">@style/CastIntroOverlay</item>
 <item name="castMiniControllerStyle">@style/CastMiniController</item>
 </style>
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
     <style name="EasyPermissions" parent="Theme.AppCompat.Light.DarkActionBar"/>
     <style name="EasyPermissions.Transparent" parent="EasyPermissions">
         <item name="android:windowIsTranslucent">true</item>

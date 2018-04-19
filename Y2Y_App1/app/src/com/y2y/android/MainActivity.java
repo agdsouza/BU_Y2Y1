@@ -67,10 +67,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	private ActionBarDrawerToggle mToggle;
 	private Toolbar mToolbar;
 
-	private String soql_temp = "empty";
-    private String current_screen = null;
-
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -277,6 +273,14 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 			case R.id.nav_handbook:
 				fragment = new HandbookFragment();
 				tag = "HandbookScreen";
+				break;
+			case R.id.nav_feedback:
+				fragment = new FeedbackFragment();
+				tag = "FeedbackScreen";
+				break;
+			case R.id.nav_survey:
+				fragment = new SurveyFragment();
+				tag = "SurveyScreen";
 				break;
 		}
 
