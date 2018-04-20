@@ -51,9 +51,16 @@ public class EventCustomAdapter extends BaseAdapter {
         TextView tvEventTime = row.findViewById(R.id.tvEventTime);
 
         tvEventName.setText(eventArray.get(position).getEventName());
-        tvEventTime.setText(eventArray.get(position).getEventStartTime() + "-" +
-                            eventArray.get(position).getEventEndTime() + " " +
-                            eventArray.get(position).getEventDate());
+
+        if (eventArray.get(position).getEventStartTime() != ""){
+            tvEventTime.setText(eventArray.get(position).getEventDate() + "\n" +
+                    eventArray.get(position).getEventStartTime() + " to " +
+                    eventArray.get(position).getEventEndTime());
+        }
+        else{
+            tvEventTime.setText(eventArray.get(position).getEventDate());
+        }
+
         return row;
     }
 }

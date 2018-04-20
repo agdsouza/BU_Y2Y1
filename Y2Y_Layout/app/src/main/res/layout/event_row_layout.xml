@@ -19,7 +19,8 @@
             android:layout_marginTop="0dp"
             android:paddingTop="15dp"
             android:text="Event"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:layout_weight="1"/>
 
         <TextView
             android:id="@+id/tvEventTime"
