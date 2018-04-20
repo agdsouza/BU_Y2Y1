@@ -122,6 +122,18 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
 	}
 
+	public void postSurvey(View v) throws UnsupportedEncodingException {
+		//errors, also not sure how to establish the survey object.
+		/*Survey survey = new Survey(Name = 'GuestApp', Daily_Guest_Rating_c = view.findViewById(R.id.rating).getString.toString(), ***** = view.findViewsById(R.id.et).getString.toString());
+		try{
+			insert survey;
+		} catch(Exception e) {
+			onError(e);
+		}*/
+
+	}
+
+
 	// Send soql query through sendRequest
     // Flow: onFetchDetailsStay -> sendRequest -> HomeFragment's method setDetailsStay to display the data
 	public void onFetchDetailsStay(View v) throws UnsupportedEncodingException {

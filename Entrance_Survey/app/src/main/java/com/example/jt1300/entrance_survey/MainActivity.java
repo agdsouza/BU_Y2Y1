@@ -2,6 +2,8 @@ package com.example.jt1300.entrance_survey;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -15,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         SeekBar sb = findViewById(R.id.rb);
         final TextView rating = findViewById(R.id.rating);
+        Button save = findViewById(R.id.save);
 
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             int progress;
@@ -36,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
 
     }
 }
