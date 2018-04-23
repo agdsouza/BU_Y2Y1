@@ -34,6 +34,7 @@ import android.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -54,6 +55,7 @@ import org.json.JSONException;
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 
 /**
@@ -66,6 +68,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	private DrawerLayout mDrawerLayout;
 	private ActionBarDrawerToggle mToggle;
 	private Toolbar mToolbar;
+	private ArrayList<String> lottery_names = new ArrayList<>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -122,17 +125,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
 	}
 
-	public void postSurvey(View v) throws UnsupportedEncodingException {
-		//errors, also not sure how to establish the survey object.
-		/*Survey survey = new Survey(Name = 'GuestApp', Daily_Guest_Rating_c = view.findViewById(R.id.rating).getString.toString(), ***** = view.findViewsById(R.id.et).getString.toString());
-		try{
-			insert survey;
-		} catch(Exception e) {
-			onError(e);
-		}*/
-
-	}
-
 
 	// Send soql query through sendRequest
     // Flow: onFetchDetailsStay -> sendRequest -> HomeFragment's method setDetailsStay to display the data
@@ -155,6 +147,16 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		String soqlquery = "SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
 //		sendRequest(soqlquery);
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
+	}
+
+	public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException {
+		// Get current date in expected format
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		String date = df.format(Calendar.getInstance().getTime());
+		String soqlquery = "SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
+//		sendRequest(soqlquery);
+		sendLotterySoqlRequest1("SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
+//		sendLotterySoqlRequest("SELECT Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')");
 	}
 
 	public void sendRequest(String soql) throws UnsupportedEncodingException {
@@ -212,7 +214,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
 							String guest_id = records.getJSONObject(0).getString("Id");
-							String soql_the_bedName = "SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
+							String soql_the_bedName = "SELECT Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
 									guest_id + "')";
 							sendBedSoqlRequest2(soql_the_bedName);
 						} catch (Exception e) {
@@ -243,9 +245,10 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					@Override
 					public void run() {
 						try {
-							JSONArray other_records = result.asJSONObject().getJSONArray("records");
+							JSONArray records = result.asJSONObject().getJSONArray("records");
 							HomeFragment receivingFragment2 = (HomeFragment) getFragmentManager().findFragmentByTag("HomeScreen");
-							receivingFragment2.setBed(other_records);
+							receivingFragment2.setBed(records);
+
 						} catch (Exception e) {
 							onError(e);
 						}
@@ -262,6 +265,73 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 				});
 			}
 
+		});
+	}
+
+	public void sendLotterySoqlRequest1(String soql) throws UnsupportedEncodingException {
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							for (int i=0;i<records.length();i++) {
+								String a_lot_name = records.getJSONObject(i).getString("Name");
+								String soql_the_lotName = "SELECT Lottery__c, Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')";
+								sendLotterySoqlRequest2(soql_the_lotName);
+							}
+
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void sendLotterySoqlRequest2(String soql) throws UnsupportedEncodingException {
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							LotteryFragment receivingFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
+							receivingFragment.setLotteryNumber(records);
+
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
 		});
 	}
 

@@ -84,7 +84,6 @@ public class HomeFragment extends Fragment {
     public void setBed(JSONArray records) throws JSONException {
         String the_bed = records.getJSONObject(0).getString("Name");
         tvBedLabel.setText("Bed: " + the_bed);
-
     }
 
 
