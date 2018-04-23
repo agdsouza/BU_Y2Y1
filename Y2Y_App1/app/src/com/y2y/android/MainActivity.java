@@ -52,11 +52,14 @@ import com.salesforce.androidsdk.ui.SalesforceActivity;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Main activity
@@ -324,6 +327,47 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					}
 				});
 			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void insertFeedback(String feedback) throws IOException {
+
+		// Hash map of fields (string and object)
+		Map<String, Object> createFeedbackInfo = new HashMap();
+
+		createFeedbackInfo.put("Guest__c", "0031D00000AWSc7QAH");
+		createFeedbackInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
+		createFeedbackInfo.put("Date_Taken__c", "2018-04-23");
+		//RecordTypeId = Guest App Record
+		createFeedbackInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		createFeedbackInfo.put("Comments_about_Y2Y__c", feedback);
+
+		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createFeedbackInfo);
+
+		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							Log.e("FeedbackTest","Success!");
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+
 			public void onError(final Exception exception) {
 				runOnUiThread(new Runnable() {
 					@Override
