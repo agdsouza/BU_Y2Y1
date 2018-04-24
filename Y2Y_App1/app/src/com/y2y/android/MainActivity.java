@@ -152,6 +152,47 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
+	//Get the list of events to populate the Calendar page
+	public void onFetchEvents(View v) throws UnsupportedEncodingException{
+		//Need to get the events that occur inthe future only
+		DateFormat df = new SimpleDateFormat("yyy-MM-dd");
+		String current_date = df.format(Calendar.getInstance().getTime());
+		String event_lst_query = "SELECT Subject, ActivityDate, Description, IsAllDayEvent, StartDateTime, EndDateTime, RecordTypeId,  Location FROM Event WHERE ActivityDate >= "+ current_date;
+		sendEventRequest(event_lst_query);
+	}
+
+	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							ScheduleFragment scheduleFragment = (ScheduleFragment) getFragmentManager().findFragmentByTag("ScheduleScreen");
+							scheduleFragment.setEvents(records);
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+
+	}
+
 	public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException {
 		// Get current date in expected format
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");

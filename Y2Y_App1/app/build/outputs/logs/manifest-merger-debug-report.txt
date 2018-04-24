@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-MERGED from [:libs:SmartSync] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+MERGED from [:libs:SmartSync] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\329c70c5cd2673f21eb38b2cc1821ac6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\3123a25e3a2bba8744fd825fa069b175\AndroidManifest.xml:2:1-6:12
 MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\47a6281fdbacd753f5bb25270175bfea\AndroidManifest.xml:2:1-19:12
@@ -12,8 +12,8 @@ MERGED from [com.android.support:design:27.1.0] C:\Users\Monica\.gradle\caches\t
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\6350f40ca7f01e75a1de7fa178e9eac7\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\b755827a4c94da64f287815885d6a0e5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\ce64615469ca828e02cb0815741bca3e\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
+MERGED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\974d182e9b864626b6d278b83b1a5743\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\7c871dd74a6c93ea34dec714b06fa7a3\AndroidManifest.xml:2:1-16:12
@@ -129,30 +129,30 @@ MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\4fdf555729723d52ed756da8fe1ad89c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\6222f3eee0cd2daada631d7983be9377\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\734256c934f3c40e7850e0da20ce9b25\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\596eba970e17ac0ddb586cc99eae05c4\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
-INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
+INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:1-99:12
 	package
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:4:2-27
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:4:2-27
 	android:versionName
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:6:2-27
-		INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml
-		INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:6:2-27
+		INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
+		INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:5:2-25
-		INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml
-		INJECTED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:5:2-25
+		INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
+		INJECTED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:7:2-40
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:7:2-40
 application
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:9:2-85:16
-MERGED from [:libs:SmartSync] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
-MERGED from [:libs:SmartSync] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:9:2-85:16
+MERGED from [:libs:SmartSync] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartSync] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\3123a25e3a2bba8744fd825fa069b175\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\3123a25e3a2bba8744fd825fa069b175\AndroidManifest.xml:5:5-20
 MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\47a6281fdbacd753f5bb25270175bfea\AndroidManifest.xml:11:5-17:19
@@ -163,10 +163,10 @@ MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\6350f40ca7f01e75a1de7fa178e9eac7\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\b755827a4c94da64f287815885d6a0e5\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\b755827a4c94da64f287815885d6a0e5\AndroidManifest.xml:22:5-20
-MERGED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\7c871dd74a6c93ea34dec714b06fa7a3\AndroidManifest.xml:11:5-14:19
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\7c871dd74a6c93ea34dec714b06fa7a3\AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\b4ad152ef5ee64d76d52d6e3d5812309\AndroidManifest.xml:26:5-34:19
@@ -347,40 +347,40 @@ MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\4fdf555729723d52ed756da8fe1ad89c\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\6222f3eee0cd2daada631d7983be9377\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\6222f3eee0cd2daada631d7983be9377\AndroidManifest.xml:22:5-20
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
 	android:label
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:10:6-38
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:10:6-38
 	android:manageSpaceActivity
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:12:3-81
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:12:3-81
 	android:allowBackup
 		ADDED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\7c871dd74a6c93ea34dec714b06fa7a3\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:9:15-48
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:9:15-48
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:11:3-34
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:11:3-34
 activity#com.y2y.android.MainActivity
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:15:3-22:14
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:15:3-22:14
 	android:label
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:16:7-39
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:16:7-39
 	android:theme
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:17:4-35
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:17:4-35
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:15:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:18:4-21:20
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:18:4-21:20
 action#android.intent.action.MAIN
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:19:5-57
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:19:5-57
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:19:13-54
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:20:5-65
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:20:5-65
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:20:15-62
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:20:15-62
 uses-sdk
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:87:5-88:41
-MERGED from [:libs:SmartSync] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartSync] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:87:5-88:41
+MERGED from [:libs:SmartSync] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartSync] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\329c70c5cd2673f21eb38b2cc1821ac6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\329c70c5cd2673f21eb38b2cc1821ac6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\3123a25e3a2bba8744fd825fa069b175\AndroidManifest.xml:4:5-43
@@ -397,10 +397,10 @@ MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Monica\.
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\b755827a4c94da64f287815885d6a0e5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\ce64615469ca828e02cb0815741bca3e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\ce64615469ca828e02cb0815741bca3e\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4b3fe182e9038e3060f41369bc6e21d4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\974d182e9b864626b6d278b83b1a5743\AndroidManifest.xml:20:5-44
@@ -631,8 +631,8 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\6222f3eee0cd2daada631d7983be9377\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02de7838d50fca1c9b8a18c10a692080\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b3c5edf7fa6dd60bdbf64e7858479a6a\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\734256c934f3c40e7850e0da20ce9b25\AndroidManifest.xml:20:5-44
@@ -642,19 +642,19 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Monica\.gradle\cac
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\8739e151534445d265c2222416f650f6\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:88:9-38
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:88:9-38
 	android:minSdkVersion
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:87:15-41
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:87:15-41
 permission#com.y2y.android.C2D_MESSAGE
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:95:5-96:47
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:95:5-96:47
 	android:protectionLevel
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:96:9-44
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:96:9-44
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:95:17-59
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:95:17-59
 uses-permission#com.y2y.android.C2D_MESSAGE
-ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:98:5-67
+ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:98:5-67
 	android:name
-		ADDED from C:\Users\Monica\Desktop\Demo\Y2Y_App1\app\AndroidManifest.xml:98:22-64
+		ADDED from C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\app\AndroidManifest.xml:98:22-64
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\47a6281fdbacd753f5bb25270175bfea\AndroidManifest.xml:12:9-16:66
 	android:label
@@ -678,31 +678,31 @@ ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\6350f40ca7f01e75a1de7fa178e9eac7\AndroidManifest.xml:11:18-90
 activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
-ADDED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
+ADDED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
 	android:exported
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
+		ADDED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
 	android:theme
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
+		ADDED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
 	android:name
-		ADDED from [:libs:SmartStore] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
+		ADDED from [:libs:SmartStore] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-68
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-68
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\20f4010b5154e992bcab4e0cb0b032c3\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\20f4010b5154e992bcab4e0cb0b032c3\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\d1415b4eb7dece04b4d463fc9c84842c\AndroidManifest.xml:27:5-68
@@ -714,9 +714,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Monica
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\7f310a9dcba0769146f59aa2438bca3f\AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\7f310a9dcba0769146f59aa2438bca3f\AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\762b3e2399bb10d16b21c14e9e8bf66a\AndroidManifest.xml:23:5-82
@@ -724,177 +724,177 @@ MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\Monica\.g
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
 uses-permission-sdk-23#android.permission.USE_FINGERPRINT
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
 service#com.salesforce.androidsdk.auth.AuthenticatorService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
 intent-filter#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
 action#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
 meta-data#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
 activity#com.salesforce.androidsdk.ui.LoginActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
 	android:launchMode
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
 activity#com.salesforce.androidsdk.ui.PasscodeActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
 activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
 activity#com.salesforce.androidsdk.ui.ServerPickerActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
 activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
 activity#com.salesforce.androidsdk.auth.idp.IDPCodeGeneratorActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
 activity#com.salesforce.androidsdk.ui.DevInfoActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
 receiver#com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
 intent-filter#android.intent.category.DEFAULT+com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
 action#com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
 category#android.intent.category.DEFAULT
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
 	android:permission
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.y2y.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
 category#${applicationId}
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 category#com.y2y.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 service#com.salesforce.androidsdk.push.SFDCGcmListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
 service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
 intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
 action#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
 service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
 receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
 service#com.salesforce.androidsdk.push.PushService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
 service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
-ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\b4ad152ef5ee64d76d52d6e3d5812309\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\20f4010b5154e992bcab4e0cb0b032c3\AndroidManifest.xml:23:5-67
@@ -919,8 +919,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Monica
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\1cdf490b0775f8e6f3d1509c4ab15c9a\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:23:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\b4ad152ef5ee64d76d52d6e3d5812309\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
@@ -941,8 +941,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Monica
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\1cdf490b0775f8e6f3d1509c4ab15c9a\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\a59660b42c14b94b4a8c7274b5b6c974\AndroidManifest.xml:22:5-79
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Desktop\Demo\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Monica\Documents\GitHub\BU_Y2Y1\Y2Y_App1\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Monica\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\b4ad152ef5ee64d76d52d6e3d5812309\AndroidManifest.xml:24:22-76
 activity#com.google.android.gms.ads.AdActivity

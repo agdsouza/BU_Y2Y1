@@ -14,4 +14,5 @@ public interface ControlFragInterface {
     public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException;
     public void insertFeedback(String feedback) throws IOException;
 
+    public void onFetchEvents(View v) throws UnsupportedEncodingException;
 }
