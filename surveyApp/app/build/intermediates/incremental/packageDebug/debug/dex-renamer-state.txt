@@ -1,4 +1,0 @@
-#Wed Apr 18 23:58:51 EDT 2018
-base.0=/Users/Jt1300/BU_Y2Y1/surveyApp/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

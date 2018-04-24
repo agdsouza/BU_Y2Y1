@@ -47,19 +47,7 @@ public class HomeFragment extends Fragment {
         tvStayLabel = (TextView)view.findViewById(R.id.tvStayLabel);
         tvWarningLabel = (TextView)view.findViewById(R.id.tvWarningLabel);
         tvLockerLabel = (TextView)view.findViewById(R.id.tvLockerLabel);
-//        btnFetch = (Button)view.findViewById(R.id.btnFetch);
 
-//        btnFetch.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                try {
-//                    HFL.onFetchDetailsStay(v);
-//                    HFL.onFetchBed(v);
-//                } catch (UnsupportedEncodingException e1) {
-//                    e1.printStackTrace();
-//                }
-//            }
-//        });
         return view;
     }
 
