@@ -62,7 +62,7 @@ public class FeedbackFragment extends Fragment {
                 public void onClick(View v) {
                     String edtValue = edtFeedbackBox.getText().toString();
                     try {
-                        HFL.insertFeedback(edtValue);
+                        HFL.postFeedback(edtValue);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }

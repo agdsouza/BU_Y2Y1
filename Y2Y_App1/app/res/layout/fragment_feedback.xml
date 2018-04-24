@@ -7,26 +7,28 @@
         android:id="@+id/edtFeedbackBox"
         android:layout_width="241dp"
         android:layout_height="164dp"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
         android:background="@drawable/feedbackboxborder"
+        android:gravity="top"
         android:hint="Enter feedback here"
-        android:paddingLeft="10dp"
-        android:gravity = "top"
         android:inputType="text|textCapSentences|textAutoCorrect"
+        android:paddingLeft="10dp"
         android:selectAllOnFocus="false"
         android:singleLine="false" />
 
     <TextView
         android:id="@+id/tvFeedback"
-        android:layout_width="251dp"
-        android:layout_height="68dp"
+        android:layout_width="269dp"
+        android:layout_height="113dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="87dp"
         android:gravity="center"
         android:text="@string/feedbacktext"
         android:textColor="@android:color/black"
-        android:textSize="18sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnSubmit"

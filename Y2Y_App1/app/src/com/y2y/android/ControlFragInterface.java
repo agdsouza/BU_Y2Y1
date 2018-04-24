@@ -12,7 +12,9 @@ public interface ControlFragInterface {
     public void onFetchBed(View v) throws UnsupportedEncodingException;
     public void onFetchLottery(View v) throws UnsupportedEncodingException;
     public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException;
-    public void insertFeedback(String feedback) throws IOException;
+    public void postSurvey(float rating, String surveyfeedback) throws IOException;
+    public void postFeedback(String feedback) throws IOException;
+
 
     public void onFetchEvents(View v) throws UnsupportedEncodingException;
 }

@@ -9,17 +9,17 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="30dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="329dp"
+        android:layout_height="412dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
         android:orientation="vertical"
-        android:id="@+id/linearLayout">
+        android:gravity="center_horizontal">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
@@ -29,18 +29,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Name: "
-                android:textSize="18sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                />
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
@@ -50,21 +50,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bed: "
-                android:textSize="18sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvBed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18sp"
-                />
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/tvStayLabel"
@@ -72,18 +71,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="Last Day of Stay: "
-                android:textSize="18sp"/>
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvStay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                />
+                android:textColor="@android:color/black"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
@@ -93,19 +92,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="# of Warnings: "
-                android:textSize="18sp"
-                />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvWarnings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                />
+                android:textColor="@android:color/black"/>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:orientation="horizontal">
@@ -115,26 +113,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Locker Combination: "
-                android:textSize="18sp"
-                />
+                android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/tvLocker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                />
+                android:textColor="@android:color/black" />
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnFetch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:text="Fetch!" />
+    <!--<Button-->
+        <!--android:id="@+id/btnFetch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="62dp"-->
+        <!--android:text="Fetch!" />-->
 
 </RelativeLayout>

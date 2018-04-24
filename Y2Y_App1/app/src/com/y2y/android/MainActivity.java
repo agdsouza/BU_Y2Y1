@@ -93,7 +93,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
 		// set default screen to be home screen (details of stay)
-        displaySelectedScreen(R.id.nav_home);
+        displaySelectedScreen(R.id.nav_survey);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
@@ -161,38 +161,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		sendEventRequest(event_lst_query);
 	}
 
-	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
-		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
-
-		client.sendAsync(restRequest, new AsyncRequestCallback() {
-			@Override
-			public void onSuccess(RestRequest request, final RestResponse result) {
-				result.consumeQuietly(); // consume before going back to main thread
-				runOnUiThread(new Runnable() {
-					@Override
-					public void run() {
-						try {
-							JSONArray records = result.asJSONObject().getJSONArray("records");
-							ScheduleFragment scheduleFragment = (ScheduleFragment) getFragmentManager().findFragmentByTag("ScheduleScreen");
-							scheduleFragment.setEvents(records);
-						} catch (Exception e) {
-							onError(e);
-						}
-					}
-				});
-			}
-			public void onError(final Exception exception) {
-				runOnUiThread(new Runnable() {
-					@Override
-					public void run() {
-						exception.printStackTrace();
-					}
-				});
-			}
-		});
-
-	}
-
 	public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException {
 		// Get current date in expected format
 		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
@@ -200,7 +168,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		String soqlquery = "SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
 //		sendRequest(soqlquery);
 		sendLotterySoqlRequest1("SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
-//		sendLotterySoqlRequest("SELECT Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')");
 	}
 
 	public void sendRequest(String soql) throws UnsupportedEncodingException {
@@ -379,14 +346,88 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
-	public void insertFeedback(String feedback) throws IOException {
+	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							ScheduleFragment scheduleFragment = (ScheduleFragment) getFragmentManager().findFragmentByTag("ScheduleScreen");
+							scheduleFragment.setEvents(records);
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+
+	}
+
+	public void postSurvey(float rating, String surveyfeedback) throws IOException {
+
+		// Hash map of fields (string and object)
+		Map<String, Object> createSurveyInfo = new HashMap();
+
+		createSurveyInfo.put("Guest__c", "0031D00000AWSc7QAH");
+		createSurveyInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
+		createSurveyInfo.put("Date_Taken__c", "2018-04-24");
+		//RecordTypeId = Guest App Record
+		createSurveyInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		createSurveyInfo.put("Daily_Guest_Rating__c", rating);
+		createSurveyInfo.put("Comments_on_Daily_Rating__c", surveyfeedback);
+
+		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createSurveyInfo);
+
+		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							Log.e("SurveyTest","Success!");
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void postFeedback(String feedback) throws IOException {
 
 		// Hash map of fields (string and object)
 		Map<String, Object> createFeedbackInfo = new HashMap();
 
 		createFeedbackInfo.put("Guest__c", "0031D00000AWSc7QAH");
 		createFeedbackInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
-		createFeedbackInfo.put("Date_Taken__c", "2018-04-23");
+		createFeedbackInfo.put("Date_Taken__c", "2018-04-24");
 		//RecordTypeId = Guest App Record
 		createFeedbackInfo.put("RecordTypeId", "0121D0000001NIoQAM");
 		createFeedbackInfo.put("Comments_about_Y2Y__c", feedback);
