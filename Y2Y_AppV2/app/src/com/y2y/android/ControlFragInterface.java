@@ -15,6 +15,7 @@ public interface ControlFragInterface {
     public void postSurvey(float rating, String surveyfeedback) throws IOException;
     public void postFeedback(String feedback) throws IOException;
 
-
     public void onFetchEvents(View v) throws UnsupportedEncodingException;
+    public void postRSVP(String eventID, String rsvp) throws IOException;
+
 }

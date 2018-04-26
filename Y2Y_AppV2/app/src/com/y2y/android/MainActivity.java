@@ -72,6 +72,8 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	private ActionBarDrawerToggle mToggle;
 	private Toolbar mToolbar;
 	private ArrayList<String> lottery_names = new ArrayList<>();
+	private DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+	private String current_date = df.format(Calendar.getInstance().getTime());
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -136,7 +138,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	}
 
 	// Need to sendRequest multiple times to get the result needed!
-    // Our full SOQL query but split into a few parts as deeply nested queries are not allowed in SOQL.
+    // Our full SOQL query but split into a few parts as deeply nested queries (more than oen level) are not allowed in SOQL.
 	// sendRequest("SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='0031D00000AWSc7QAH')");
     // Flow: onFetchBed -> sendBedSoqlRequest1 -> sendBedSoqlRequest2 -> HomeFragment's method setBed to display the data
 	public void onFetchBed(View v) throws UnsupportedEncodingException {
@@ -144,32 +146,29 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	}
 
 	public void onFetchLottery(View v) throws UnsupportedEncodingException {
-		// Get current date in expected format
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-		String date = df.format(Calendar.getInstance().getTime());
-		String soqlquery = "SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
+		String soqlquery = "SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=" + current_date + ") ORDER BY Type__c ASC";
 //		sendRequest(soqlquery);
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
-	//Get the list of events to populate the Calendar page
-	public void onFetchEvents(View v) throws UnsupportedEncodingException{
-		//Need to get the events that occur inthe future only
-		DateFormat df = new SimpleDateFormat("yyy-MM-dd");
-		String current_date = df.format(Calendar.getInstance().getTime());
-		String event_lst_query = "SELECT Subject, ActivityDate, Description, IsAllDayEvent, StartDateTime, EndDateTime, RecordTypeId,  Location FROM Event WHERE ActivityDate >= "+ current_date;
-		sendEventRequest(event_lst_query);
-	}
-
+	// Need to sendRequest multiple times to get the result needed!
+	// Our full SOQL query but split into a few parts as deeply nested queries (more than oen level) are not allowed in SOQL.
+	// sendRequest (SELECT Lottery__c, Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + ("SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC") + "'))
+	// Flow: onFetchLottery -> sendLotterySoqlRequest1 -> sendLotterySoqlRequest2 -> LotteryFragment's method setLottery to display the data
 	public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException {
-		// Get current date in expected format
-		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-		String date = df.format(Calendar.getInstance().getTime());
-		String soqlquery = "SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
+		String soqlquery = "SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=" + current_date + ") ORDER BY Type__c ASC";
 //		sendRequest(soqlquery);
 		sendLotterySoqlRequest1("SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
+	//Get the list of events to populate the Calendar page
+	public void onFetchEvents(View v) throws UnsupportedEncodingException{
+		//Need to get the events that occur in the future only
+		String event_lst_query = "SELECT Id, Subject, ActivityDate, Description, IsAllDayEvent, StartDateTime, EndDateTime, RecordTypeId,  Location FROM Event WHERE ActivityDate >= "+ current_date;
+		sendEventRequest(event_lst_query);
+	}
+
+	// Get records from SOQL query and call fragment methods
 	public void sendRequest(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -212,6 +211,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// Additional soql queries for deeply nested queries for Bed and Bed_Assignment objects
 	public void sendBedSoqlRequest1(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -279,6 +279,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// Additional soql queries for deeply nested queries for Lottery and Lottery_Entry objects
 	public void sendLotterySoqlRequest1(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -292,6 +293,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
 							for (int i=0;i<records.length();i++) {
+								// Get lottery entry id to be used in additional soql query to get lottery entry number to be displayed
 								String a_lot_name = records.getJSONObject(i).getString("Name");
 								String soql_the_lotName = "SELECT Lottery__c, Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')";
 								sendLotterySoqlRequest2(soql_the_lotName);
@@ -326,6 +328,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					public void run() {
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
+							// After getting lottery entry number, call fragment method to display it
 							LotteryFragment receivingFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
 							receivingFragment.setLotteryNumber(records);
 
@@ -346,6 +349,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// Additional soql queries for deeply nested queries for Event object
 	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -378,19 +382,23 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 
 	}
 
+	// Method that creates a Survey object of record type Guest App for survey fields and pushes to Salesforce database
 	public void postSurvey(float rating, String surveyfeedback) throws IOException {
 
 		// Hash map of fields (string and object)
 		Map<String, Object> createSurveyInfo = new HashMap();
 
+		// Hardcoding my contact id and first name and initials and date for now
 		createSurveyInfo.put("Guest__c", "0031D00000AWSc7QAH");
 		createSurveyInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
-		createSurveyInfo.put("Date_Taken__c", "2018-04-24");
-		//RecordTypeId = Guest App Record
+		createSurveyInfo.put("Date_Taken__c", current_date);
+		//RecordTypeId 0121D0000001NIoQAM is for Guest App Record
 		createSurveyInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		// Fields for daily rating and comments on daily rating
 		createSurveyInfo.put("Daily_Guest_Rating__c", rating);
 		createSurveyInfo.put("Comments_on_Daily_Rating__c", surveyfeedback);
 
+		// Creates a restrequest to handle the rest api request using Salesforce method getRequestForCreate for posting
 		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createSurveyInfo);
 
 		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
@@ -420,18 +428,22 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// Method that creates a Survey object of record type Guest App for feedback fields and pushes to Salesforce database
 	public void postFeedback(String feedback) throws IOException {
 
 		// Hash map of fields (string and object)
 		Map<String, Object> createFeedbackInfo = new HashMap();
 
+		// Hardcoding my contact id and first name and initials and date for now
 		createFeedbackInfo.put("Guest__c", "0031D00000AWSc7QAH");
 		createFeedbackInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
-		createFeedbackInfo.put("Date_Taken__c", "2018-04-24");
-		//RecordTypeId = Guest App Record
+		createFeedbackInfo.put("Date_Taken__c", current_date);
+		// RecordTypeId 0121D0000001NIoQAM is for Guest App Record
 		createFeedbackInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		// Field for feedback
 		createFeedbackInfo.put("Comments_about_Y2Y__c", feedback);
 
+		// Creates a restrequest to handle the rest api request using Salesforce method getRequestForCreate for posting
 		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createFeedbackInfo);
 
 		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
@@ -443,6 +455,44 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					public void run() {
 						try {
 							Log.e("FeedbackTest","Success!");
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	// Method that creates a Event object for description field and pushes to Salesforce database
+	public void postRSVP(String eventID, String rsvp) throws IOException{
+		Map<String, Object> rsvpAddition = new HashMap();
+
+		//You want to update the Decription field with the new rsvp value
+		rsvpAddition.put("Description", rsvp);
+
+		RestRequest restRequest = RestRequest.getRequestForUpdate(ApiVersionStrings.getVersionNumber(this),
+				"Event", eventID, rsvpAddition);
+
+		//Send the request
+		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							Log.e("RSVP Update:","Success!");
 						} catch (Exception e) {
 							onError(e);
 						}
