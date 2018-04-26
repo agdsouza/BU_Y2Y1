@@ -1,6 +1,7 @@
 ## General Information
-Team Members: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Katz.  
-This is the repository for our CS591E3: Mobile App Development class project. The app provides at way for residents at the Y2Y Shelter to track their stay.
+Our team is working with the student-run Harvard Square Homeless Shelter's (HSHS) Y2Y Youth Shelter. Located in Harvard Square, Y2Y is a student-run overnight shelter that employs a youth-to-youth model and provides a safe and collaborative environment for young adults undergoing homelessness. Our goal is to make this shelter more efficient and its residents better informed by providing them with an Android app that displays information about their stay. Additionally, our app implements crowdsourcing to give residents an easy means to provide feedback through anonymous surveys. Our app was built using Android Studio and SalesForce Mobile SDK. For user data, we used Y2Y's existing Salesforce database and instances, Google and Facebook for third party authentication, as well as Firebase, which is a real-time database that allows us to cross-reference authorization tokens with the Salesforce SOQL database. With this more easily-accessible information, Y2Y residents will be able to have an even more fulfilling experience at the shelter.
+
+Boston University Spark Project Members: Reda Ijaz, Adriana D'Souza, Monica Chiu, Javiar Titus, Ray Katz.  
 
 ## Timeline
 ##### Week 1
