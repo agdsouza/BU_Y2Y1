@@ -29,12 +29,15 @@ This is the repository for our CS591E3: Mobile App Development class project. Th
 * Find method to store feedback in Salesforce
 
 ##### Week 5
-* Finish implementing surveys 
+* Finish implementing surveys & feedback
 * Action items 
-* Feedback page 
+* Finish events/calendar rsvp
 * Oauth!!!!! 
 * Merge standalone apps with main Salesforce app
 
 ##### Week 6
-* Make app prettier 
-* Debug!!!
+* Finish Oauth
+* Finish merging Oauth and action items to main app Y2Y_AppV2
+* Beautify app
+* Test and debug
+* Complete documentation (workarounds, timeline, screencasts, etc.)
