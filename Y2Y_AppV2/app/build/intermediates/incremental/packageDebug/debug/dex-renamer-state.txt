@@ -1,0 +1,19 @@
+#Thu Apr 26 14:32:52 EDT 2018
+path.1=classes.dex
+path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\51
+base.4=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\53
+base.3=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\50
+base.2=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\52
+base.1=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
+base.0=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\54
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex

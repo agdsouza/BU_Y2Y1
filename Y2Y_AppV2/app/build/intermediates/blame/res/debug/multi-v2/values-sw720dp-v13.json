@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mcsbu\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.0.aar\\6d56ca6b049eb6f145156c929fad6d51\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    }
+                }
+            ]
+        }
+    ]
+}
