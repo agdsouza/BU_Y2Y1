@@ -34,6 +34,7 @@ import android.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -51,10 +52,14 @@ import com.salesforce.androidsdk.ui.SalesforceActivity;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Main activity
@@ -66,6 +71,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	private DrawerLayout mDrawerLayout;
 	private ActionBarDrawerToggle mToggle;
 	private Toolbar mToolbar;
+	private ArrayList<String> lottery_names = new ArrayList<>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -87,7 +93,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 
 		// set default screen to be home screen (details of stay)
-        displaySelectedScreen(R.id.nav_home);
+        displaySelectedScreen(R.id.nav_survey);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
@@ -104,7 +110,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
         );
 	}
 
-
+	
 	@Override
 	public void onResume() {
 		// Hide everything until we are logged in
@@ -121,6 +127,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// Show everything
 		findViewById(R.id.drawer_layout).setVisibility(View.VISIBLE);
 	}
+
 
 	// Send soql query through sendRequest
     // Flow: onFetchDetailsStay -> sendRequest -> HomeFragment's method setDetailsStay to display the data
@@ -145,46 +152,23 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		sendRequest("SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
 	}
 
-    //Get the list of events to populate the Calendar page
-    public void onFetchEvents(View v) throws UnsupportedEncodingException{
-        //Need to get the events that occur inthe future only
-        DateFormat df = new SimpleDateFormat("yyy-MM-dd");
-        String current_date = df.format(Calendar.getInstance().getTime());
-        String event_lst_query = "SELECT Subject, ActivityDate, Description, IsAllDayEvent, StartDateTime, EndDateTime, RecordTypeId,  Location FROM Event WHERE ActivityDate >= "+ current_date;
-        sendEventRequest(event_lst_query);
-    }
+	//Get the list of events to populate the Calendar page
+	public void onFetchEvents(View v) throws UnsupportedEncodingException{
+		//Need to get the events that occur inthe future only
+		DateFormat df = new SimpleDateFormat("yyy-MM-dd");
+		String current_date = df.format(Calendar.getInstance().getTime());
+		String event_lst_query = "SELECT Id, Subject, ActivityDate, Description, IsAllDayEvent, StartDateTime, EndDateTime, RecordTypeId,  Location FROM Event WHERE ActivityDate >= "+ current_date + "ORDER BY ActivityDate";
+		sendEventRequest(event_lst_query);
+	}
 
-    public void sendEventRequest(String soql) throws UnsupportedEncodingException{
-        RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
-
-        client.sendAsync(restRequest, new AsyncRequestCallback() {
-            @Override
-            public void onSuccess(RestRequest request, final RestResponse result) {
-                result.consumeQuietly(); // consume before going back to main thread
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        try {
-                            JSONArray records = result.asJSONObject().getJSONArray("records");
-                            ScheduleFragment scheduleFragment = (ScheduleFragment) getFragmentManager().findFragmentByTag("ScheduleScreen");
-                            scheduleFragment.setEvents(records);
-                        } catch (Exception e) {
-                            onError(e);
-                        }
-                    }
-                });
-            }
-            public void onError(final Exception exception) {
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        exception.printStackTrace();
-                    }
-                });
-            }
-        });
-
-    }
+	public void onFetchLotteryNumber(View v) throws UnsupportedEncodingException {
+		// Get current date in expected format
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+		String date = df.format(Calendar.getInstance().getTime());
+		String soqlquery = "SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=" + date + ") ORDER BY Type__c ASC";
+//		sendRequest(soqlquery);
+		sendLotterySoqlRequest1("SELECT Name FROM Lottery__c WHERE (Lottery_Date__c=2018-04-10) ORDER BY Type__c ASC");
+	}
 
 	public void sendRequest(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
@@ -241,7 +225,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
 							String guest_id = records.getJSONObject(0).getString("Id");
-							String soql_the_bedName = "SELECT Bed__c.Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
+							String soql_the_bedName = "SELECT Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
 									guest_id + "')";
 							sendBedSoqlRequest2(soql_the_bedName);
 						} catch (Exception e) {
@@ -272,9 +256,10 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					@Override
 					public void run() {
 						try {
-							JSONArray other_records = result.asJSONObject().getJSONArray("records");
+							JSONArray records = result.asJSONObject().getJSONArray("records");
 							HomeFragment receivingFragment2 = (HomeFragment) getFragmentManager().findFragmentByTag("HomeScreen");
-							receivingFragment2.setBed(other_records);
+							receivingFragment2.setBed(records);
+
 						} catch (Exception e) {
 							onError(e);
 						}
@@ -292,6 +277,223 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 			}
 
 		});
+	}
+
+	public void sendLotterySoqlRequest1(String soql) throws UnsupportedEncodingException {
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							for (int i=0;i<records.length();i++) {
+								String a_lot_name = records.getJSONObject(i).getString("Name");
+								String soql_the_lotName = "SELECT Lottery__c, Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')";
+								sendLotterySoqlRequest2(soql_the_lotName);
+							}
+
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void sendLotterySoqlRequest2(String soql) throws UnsupportedEncodingException {
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							LotteryFragment receivingFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
+							receivingFragment.setLotteryNumber(records);
+
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
+		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
+
+		client.sendAsync(restRequest, new AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							JSONArray records = result.asJSONObject().getJSONArray("records");
+							ScheduleFragment scheduleFragment = (ScheduleFragment) getFragmentManager().findFragmentByTag("ScheduleScreen");
+							scheduleFragment.setEvents(records);
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+
+	}
+
+	public void postSurvey(float rating, String surveyfeedback) throws IOException {
+
+		// Hash map of fields (string and object)
+		Map<String, Object> createSurveyInfo = new HashMap();
+
+		createSurveyInfo.put("Guest__c", "0031D00000AWSc7QAH");
+		createSurveyInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
+		createSurveyInfo.put("Date_Taken__c", "2018-04-24");
+		//RecordTypeId = Guest App Record
+		createSurveyInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		createSurveyInfo.put("Daily_Guest_Rating__c", rating);
+		createSurveyInfo.put("Comments_on_Daily_Rating__c", surveyfeedback);
+
+		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createSurveyInfo);
+
+		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							Log.e("SurveyTest","Success!");
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void postFeedback(String feedback) throws IOException {
+
+		// Hash map of fields (string and object)
+		Map<String, Object> createFeedbackInfo = new HashMap();
+
+		createFeedbackInfo.put("Guest__c", "0031D00000AWSc7QAH");
+		createFeedbackInfo.put("CM_First_Name_and_Last_Initial__c", "Monica C.");
+		createFeedbackInfo.put("Date_Taken__c", "2018-04-24");
+		//RecordTypeId = Guest App Record
+		createFeedbackInfo.put("RecordTypeId", "0121D0000001NIoQAM");
+		createFeedbackInfo.put("Comments_about_Y2Y__c", feedback);
+
+		RestRequest restRequest = RestRequest.getRequestForCreate(ApiVersionStrings.getVersionNumber(this), "Survey__c", createFeedbackInfo);
+
+		client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+			@Override
+			public void onSuccess(RestRequest request, final RestResponse result) {
+				result.consumeQuietly(); // consume before going back to main thread
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						try {
+							Log.e("FeedbackTest","Success!");
+						} catch (Exception e) {
+							onError(e);
+						}
+					}
+				});
+			}
+
+			public void onError(final Exception exception) {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						exception.printStackTrace();
+					}
+				});
+			}
+		});
+	}
+
+	public void postRSVP(String eventID, String rsvp) throws IOException{
+		Map<String, Object> rsvpAddition = new HashMap();
+
+		rsvpAddition.put("Description", rsvp);
+
+        RestRequest restRequest = RestRequest.getRequestForUpdate(ApiVersionStrings.getVersionNumber(this),
+                "Event", eventID, rsvpAddition);
+
+        client.sendAsync(restRequest, new RestClient.AsyncRequestCallback() {
+            @Override
+            public void onSuccess(RestRequest request, final RestResponse result) {
+                result.consumeQuietly(); // consume before going back to main thread
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Log.e("RSVP Update:","Success!");
+                        } catch (Exception e) {
+                            onError(e);
+                        }
+                    }
+                });
+            }
+
+            public void onError(final Exception exception) {
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        exception.printStackTrace();
+                    }
+                });
+            }
+        });
 	}
 
 	private void displaySelectedScreen(int id) {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Reda\\Documents\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Users\\Reda\\Documents\\GitHub\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Reda\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.1.aar\\7afc3c5d254db5c86be1ab9363f98440\\res\\values-bn\\values.xml",

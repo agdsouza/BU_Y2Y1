@@ -2,6 +2,7 @@ package com.mytrail.android;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -25,7 +26,7 @@ public class HomeFragment extends Fragment {
     private TextView tvStayLabel;
     private TextView tvWarningLabel;
     private TextView tvLockerLabel;
-    private Button btnFetch;
+//    private Button btnFetch;
 
     ControlFragInterface HFL;
 
@@ -46,31 +47,38 @@ public class HomeFragment extends Fragment {
         tvStayLabel = (TextView)view.findViewById(R.id.tvStayLabel);
         tvWarningLabel = (TextView)view.findViewById(R.id.tvWarningLabel);
         tvLockerLabel = (TextView)view.findViewById(R.id.tvLockerLabel);
-        btnFetch = (Button)view.findViewById(R.id.btnFetch);
+//        btnFetch = (Button)view.findViewById(R.id.btnFetch);
 
-        btnFetch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    HFL.onFetchDetailsStay(v);
-                    HFL.onFetchBed(v);
-                } catch (UnsupportedEncodingException e1) {
-                    e1.printStackTrace();
-                }
-            }
-        });
+//        btnFetch.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                try {
+//                    HFL.onFetchDetailsStay(v);
+//                    HFL.onFetchBed(v);
+//                } catch (UnsupportedEncodingException e1) {
+//                    e1.printStackTrace();
+//                }
+//            }
+//        });
         return view;
     }
 
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        try {
+            HFL.onFetchDetailsStay(view);
+            HFL.onFetchBed(view);
+        } catch (UnsupportedEncodingException e1) {
+            e1.printStackTrace();
+        }
         super.onViewCreated(view, savedInstanceState);
     }
 
     public void setDetailsStay(JSONArray records) throws JSONException {
         String the_name = records.getJSONObject(0).getString("Name");
-        tvNameLabel.setText("Name: " + the_name);
+        tvNameLabel.setText("Hello " + the_name + "!");
+        tvNameLabel.setTextColor(Color.BLACK);
         String the_staydate = records.getJSONObject(0).getString("Last_Date_of_Stay__c");
         tvStayLabel.setText("Last Day of Stay: " + the_staydate);
         String the_majorwarnings = records.getJSONObject(0).getString("Major_Warnings__c");
@@ -84,7 +92,6 @@ public class HomeFragment extends Fragment {
     public void setBed(JSONArray records) throws JSONException {
         String the_bed = records.getJSONObject(0).getString("Name");
         tvBedLabel.setText("Bed: " + the_bed);
-
     }
 
 

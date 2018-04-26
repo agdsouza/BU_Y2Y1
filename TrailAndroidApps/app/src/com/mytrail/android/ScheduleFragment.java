@@ -5,13 +5,17 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.app.Fragment;
+import android.support.v7.view.menu.ShowableListMenu;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,6 +33,7 @@ public class ScheduleFragment extends Fragment{
     private ListAdapter lvAdapter;
     private ArrayList<ListEvent> eventArray;
     private Context vCont;
+    CheckBox cbRSVP;
 
     @Override
     public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
@@ -42,6 +47,7 @@ public class ScheduleFragment extends Fragment{
         View view = inflater.inflate(R.layout.fragment_schedule, container, false);
         mOutputText = (TextView) view.findViewById(R.id.tvSchedHeader);
         lvEvents = (ListView) view.findViewById(R.id.lvEvents);
+        cbRSVP = (CheckBox) view.findViewById(R.id.cbRSVP);
         eventArray = new ArrayList<ListEvent>();
 
         //Call the method in the Control Fragment Interface that gets all the events.
@@ -53,6 +59,7 @@ public class ScheduleFragment extends Fragment{
             Log.v("ERROR:", "YOU CANT DO THIS");
             e.printStackTrace();
         }
+
 
         return view;
 
@@ -70,6 +77,7 @@ public class ScheduleFragment extends Fragment{
         List<String> eventStrings = new ArrayList<String>();
         int num_events = records.length();
         for (int event_row = 0; event_row<num_events; event_row++){
+            String ID = records.getJSONObject(event_row).getString("Id");
             String EventName = records.getJSONObject(event_row).getString("Subject");
             String ActivityDate = records.getJSONObject(event_row).getString("ActivityDate");
             String Description = records.getJSONObject(event_row).getString("Description");
@@ -80,6 +88,7 @@ public class ScheduleFragment extends Fragment{
             String Location = records.getJSONObject(event_row).getString("Location");
             String startTimeString = "";
             String endTimeString = "";
+
 
             if(isAllDayEvent.equals("true")){
                 startTimeString = "All-Day";
@@ -115,13 +124,13 @@ public class ScheduleFragment extends Fragment{
 
             }
 
+            Log.e("id", ID);
             Log.e("name", EventName);
             Log.e("start", startTimeString);
             Log.e("end", endTimeString);
             Log.e("date", ActivityDate);
-            ListEvent e = new ListEvent(EventName, startTimeString, endTimeString, ActivityDate);
+            ListEvent e = new ListEvent(ID, EventName, startTimeString, endTimeString, ActivityDate, Description, Location);
             eventArray.add(e);
-            Log.e("HELLO", e.getEventName());
             lvAdapter = new EventCustomAdapter(vCont, eventArray);
             lvEvents.setAdapter(lvAdapter);
         }

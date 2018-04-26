@@ -14,6 +14,7 @@ import android.widget.TextView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 import android.content.Context;
@@ -56,6 +57,20 @@ public class FeedbackFragment extends Fragment {
             edtFeedbackBox = (EditText) view.findViewById(R.id.edtFeedbackBox);
             btnSubmit = (Button) view.findViewById(R.id.btnSubmit);
 
+            btnSubmit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String edtValue = edtFeedbackBox.getText().toString();
+                    try {
+                        HFL.postFeedback(edtValue);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    edtFeedbackBox.setText("");
+                }
+            });
+
+
             return view;
         }
 
@@ -65,10 +80,6 @@ public class FeedbackFragment extends Fragment {
             super.onViewCreated(view, savedInstanceState);
         }
 
-//        public void insertFeedback(JSONArray records) throws JSONException {
-//
-//        }
 
-//        public static RestRequest getRequestForCreate(String apiVersion, String objectType, String objectId);
 
 }

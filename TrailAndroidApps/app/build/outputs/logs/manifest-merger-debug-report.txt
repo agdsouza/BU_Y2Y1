@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
-INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
-INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
-MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
+INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
+INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
+MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\7e024a0409fba8ab6342b7df5997dbf2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ba47c77c754743051dae008e51d53609\AndroidManifest.xml:2:1-6:12
 MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\3e11762d2d58597aec20dbe5c033100f\AndroidManifest.xml:2:1-19:12
@@ -11,8 +11,8 @@ MERGED from [com.android.support:design:27.1.0] C:\Users\Reda\.gradle\caches\tra
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\884480dd150e688e0e537ef3cc85b868\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\8e755e6f2a8c30f8b1fdfd7bc58086bf\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\7e4499cd08c19ce17a9ffc9a7c14834f\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
+MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-147:12
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4271e06f1368c46fc20995d59ca530f7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\fc38e1f22243ba750640743b087d8a46\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\2949c80cfa20b9677ff3e36ef77cea2f\AndroidManifest.xml:2:1-16:12
@@ -128,28 +128,28 @@ MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\22119256d7566f25b8abbb5fd5b81460\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\1a41b34eff135d8c3ca920196ff363d5\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3a570e1ed392801000ec4c17a73b1bc9\AndroidManifest.xml:17:1-22:12
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d0f9d976663e5d70bb8e28d3c02030fc\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3eccfe4fc428ad41fae1e57f562908b1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\de7d10ceeaabf829125bebc8f9b766c3\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
-INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
+INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
+INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:1-95:12
 	package
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:4:5-34
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:4:5-34
 	android:versionName
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:6:5-30
-		INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml
-		INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml
+		INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:5:5-28
-		INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml
-		INJECTED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml
+		INJECTED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml
 	android:installLocation
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:7:5-43
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:7:5-43
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:9:5-67
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\44a3addf73dab6b7abf6eaaf187e4a51\AndroidManifest.xml:23:5-67
@@ -174,12 +174,12 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Reda\.
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\a8d68ccc628b253e1924b762e04be381\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:23:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:9:22-64
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:10:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\44a3addf73dab6b7abf6eaaf187e4a51\AndroidManifest.xml:24:5-79
@@ -198,20 +198,20 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Reda\.
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-12.0.1.aar\a8d68ccc628b253e1924b762e04be381\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:22:5-79
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:11:5-71
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:11:5-71
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:11:22-68
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:11:22-68
 application
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:13:5-89:19
-MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
-MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:13:5-89:19
+MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ba47c77c754743051dae008e51d53609\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ba47c77c754743051dae008e51d53609\AndroidManifest.xml:5:5-20
 MERGED from [pub.devrel:easypermissions:0.3.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\3e11762d2d58597aec20dbe5c033100f\AndroidManifest.xml:11:5-17:19
@@ -220,10 +220,10 @@ MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\884480dd150e688e0e537ef3cc85b868\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\8e755e6f2a8c30f8b1fdfd7bc58086bf\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\8e755e6f2a8c30f8b1fdfd7bc58086bf\AndroidManifest.xml:22:5-20
-MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:5-145:19
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\2949c80cfa20b9677ff3e36ef77cea2f\AndroidManifest.xml:11:5-14:19
 MERGED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\2949c80cfa20b9677ff3e36ef77cea2f\AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:26:5-34:19
@@ -404,40 +404,40 @@ MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wallet-license-12.0.1.aar\22119256d7566f25b8abbb5fd5b81460\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\1a41b34eff135d8c3ca920196ff363d5\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\1a41b34eff135d8c3ca920196ff363d5\AndroidManifest.xml:22:5-20
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-20
 	android:label
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:14:9-41
 	android:manageSpaceActivity
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:16:9-87
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:16:9-87
 	android:allowBackup
 		ADDED from [com.github.barteksc:pdfium-android:1.4.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.4.0.aar\2949c80cfa20b9677ff3e36ef77cea2f\AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:13:18-51
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:13:18-51
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:15:9-40
 activity#com.mytrail.android.MainActivity
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:19:9-26:20
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:19:9-26:20
 	android:label
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:20:13-45
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:20:13-45
 	android:theme
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:21:13-44
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:21:13-44
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:19:19-47
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:19:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:24:27-74
 uses-sdk
-ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:91:5-92:41
-MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:91:5-92:41
+MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartSync] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartSync\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\7e024a0409fba8ab6342b7df5997dbf2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.barteksc:android-pdf-viewer:2.0.3] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\android-pdf-viewer-2.0.3.aar\7e024a0409fba8ab6342b7df5997dbf2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\ba47c77c754743051dae008e51d53609\AndroidManifest.xml:4:5-43
@@ -452,10 +452,10 @@ MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Reda\.gr
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\8e755e6f2a8c30f8b1fdfd7bc58086bf\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\7e4499cd08c19ce17a9ffc9a7c14834f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.0.aar\7e4499cd08c19ce17a9ffc9a7c14834f\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4271e06f1368c46fc20995d59ca530f7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\4271e06f1368c46fc20995d59ca530f7\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\fc38e1f22243ba750640743b087d8a46\AndroidManifest.xml:20:5-44
@@ -686,8 +686,8 @@ MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Us
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\1a41b34eff135d8c3ca920196ff363d5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3a570e1ed392801000ec4c17a73b1bc9\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3a570e1ed392801000ec4c17a73b1bc9\AndroidManifest.xml:20:5-44
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:libs:SalesforceAnalytics] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceAnalytics\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d0f9d976663e5d70bb8e28d3c02030fc\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d0f9d976663e5d70bb8e28d3c02030fc\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\3eccfe4fc428ad41fae1e57f562908b1\AndroidManifest.xml:20:5-44
@@ -697,9 +697,9 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Reda\.gradle\cache
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-12.0.1.aar\5811b5c4ea29f51030454814d577cc0d\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:92:9-38
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:92:9-38
 	android:minSdkVersion
-		ADDED from C:\Users\Reda\Documents\TrailAndroidApps\app\AndroidManifest.xml:91:15-41
+		ADDED from C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\AndroidManifest.xml:91:15-41
 activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
 ADDED from [pub.devrel:easypermissions:0.3.0] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\easypermissions-0.3.0.aar\3e11762d2d58597aec20dbe5c033100f\AndroidManifest.xml:12:9-16:66
 	android:label
@@ -723,27 +723,27 @@ ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\884480dd150e688e0e537ef3cc85b868\AndroidManifest.xml:11:18-90
 activity#com.salesforce.androidsdk.smartstore.ui.SmartStoreInspectorActivity
-ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
+ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-17:67
 	android:exported
-		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
+		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:13-37
 	android:theme
-		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
+		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-64
 	android:name
-		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
+		ADDED from [:libs:SmartStore] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SmartStore\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:13-95
 uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-71
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-74
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:22-71
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-68
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\44a3addf73dab6b7abf6eaaf187e4a51\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-analytics-12.0.1.aar\44a3addf73dab6b7abf6eaaf187e4a51\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics-impl:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-12.0.1.aar\f406aa6b3a5a7674ffd957c9b39e6e83\AndroidManifest.xml:27:5-68
@@ -755,9 +755,9 @@ MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] C:\Users\Reda\.
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-82
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\d0e5955929239cfda2b71cb65bf746d6\AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-gcm-12.0.1.aar\d0e5955929239cfda2b71cb65bf746d6\AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-iid-12.0.1.aar\c697c83caaefac168ae9999adf51341b\AndroidManifest.xml:23:5-82
@@ -765,177 +765,177 @@ MERGED from [com.google.android.gms:play-services-iid:12.0.1] C:\Users\Reda\.gra
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\firebase-iid-12.0.1.aar\2c9ed2bf3afeb977f2fdda1b53ccd011\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:22-79
 uses-permission-sdk-23#android.permission.USE_FINGERPRINT
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:5-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:29-78
 meta-data#android.content.APP_RESTRICTIONS
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:9-26:56
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-53
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:13-60
 service#com.salesforce.androidsdk.auth.AuthenticatorService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:9-39:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:13-79
 intent-filter#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-34:29
 action#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:25-77
 meta-data#android.accounts.AccountAuthenticator
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:57
 	android:resource
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:38:17-54
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-69
 activity#com.salesforce.androidsdk.ui.LoginActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:9-50:67
 	android:launchMode
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-48
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-70
 activity#com.salesforce.androidsdk.ui.PasscodeActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:9-56:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-73
 activity#com.salesforce.androidsdk.ui.ManageSpaceActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:9-62:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:62:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-76
 activity#com.salesforce.androidsdk.ui.ServerPickerActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:65:9-68:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:67:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:68:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:66:13-77
 activity#com.salesforce.androidsdk.ui.AccountSwitcherActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:71:9-74:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:73:13-46
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:74:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:72:13-80
 activity#com.salesforce.androidsdk.auth.idp.IDPCodeGeneratorActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:77:9-81:67
 	android:excludeFromRecents
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:79:13-46
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:80:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:81:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:78:13-87
 activity#com.salesforce.androidsdk.ui.DevInfoActivity
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:84:9-87:67
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:86:13-37
 	android:theme
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:87:13-64
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:85:13-72
 receiver#com.salesforce.androidsdk.auth.idp.IDPInititatedLoginReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:90:9-98:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:92:13-36
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:91:13-89
 intent-filter#android.intent.category.DEFAULT+com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:93:13-97:29
 action#com.salesforce.IDP_LOGIN_REQUEST
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:17-75
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:94:25-72
 category#android.intent.category.DEFAULT
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:17-76
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:96:27-73
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:105:9-114:20
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:107:13-36
 	android:permission
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:108:13-73
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:106:13-66
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.mytrail.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:109:13-113:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:17-81
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:110:25-78
 category#${applicationId}
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 category#com.mytrail.android
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:17-61
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:112:27-58
 service#com.salesforce.androidsdk.push.SFDCGcmListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:116:9-122:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:117:13-81
 intent-filter#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:119:13-121:29
 service#com.salesforce.androidsdk.push.SFDCInstanceIDListenerService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:123:9-129:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:125:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:124:13-88
 intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:126:13-128:29
 action#com.google.android.gms.iid.InstanceID
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:17-80
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:127:25-77
 service#com.salesforce.androidsdk.push.SFDCRegistrationIntentService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:130:9-133:19
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:132:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:131:13-88
 receiver#com.salesforce.androidsdk.push.PushService$SFDCRegistrationRetryAlarmReceiver
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:135:9-137:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:137:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:136:13-105
 service#com.salesforce.androidsdk.push.PushService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:139:9-141:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:141:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:140:13-70
 service#com.salesforce.androidsdk.analytics.AnalyticsPublisherService
-ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
+ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:142:9-144:40
 	android:exported
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:144:13-37
 	android:name
-		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
+		ADDED from [:libs:SalesforceSDK] C:\Users\Reda\Documents\GitHub\TrailAndroidApps\mobile_sdk\SalesforceMobileSDK-Android\libs\SalesforceSDK\build\intermediates\manifests\full\debug\AndroidManifest.xml:143:13-89
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\Reda\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-12.0.1.aar\9ad7fb6412c4b75b87974a7e1b84a64d\AndroidManifest.xml:29:9-33:64
 	android:exported

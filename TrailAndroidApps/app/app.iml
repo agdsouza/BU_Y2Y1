@@ -46,13 +46,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -60,6 +53,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
@@ -79,9 +79,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
@@ -90,13 +92,20 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 27 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -137,6 +146,7 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-awareness-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:27.1.0@jar" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-appinvite-12.0.1" level="project" />
+    <orderEntry type="library" name="net.zetetic:android-database-sqlcipher-3.5.7" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-safetynet-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-analytics-impl-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-wallet-license-12.0.1" level="project" />
@@ -187,6 +197,7 @@
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-auth-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.api-client:google-api-client-android:1.23.0@jar" level="project" />
+    <orderEntry type="library" name="com.squareup:tape:1.2.3@jar" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-plus-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.apis:google-api-services-calendar:v3-rev307-1.23.0@jar" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-auth-api-phone-12.0.1" level="project" />
@@ -213,6 +224,7 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-basement-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-instantapps-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-appinvite-license-12.0.1" level="project" />
+    <orderEntry type="library" name="com.squareup.okio:okio:1.13.0@jar" level="project" />
     <orderEntry type="library" name="com.github.barteksc:android-pdf-viewer-2.0.3" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-auth-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:palette-v7-27.1.0" level="project" />
@@ -233,11 +245,16 @@
     <orderEntry type="library" name="com.android.support:support-fragment-27.1.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-gcm-12.0.1" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-storage-common-12.0.1" level="project" />
+    <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.9.0@jar" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-crash-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:mediarouter-v7-27.1.0" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-gcm-license-12.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-27.1.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-iid-license-12.0.1" level="project" />
     <orderEntry type="library" name="android.arch.core:runtime-1.1.0" level="project" />
+    <orderEntry type="module" module-name="SalesforceSDK" />
+    <orderEntry type="module" module-name="SmartSync" />
+    <orderEntry type="module" module-name="SalesforceAnalytics" />
+    <orderEntry type="module" module-name="SmartStore" />
   </component>
 </module>

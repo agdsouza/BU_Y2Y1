@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Reda\\Documents\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\Reda\\Documents\\GitHub\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Reda\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\49e1cf8faa0a5ac9bfdb6a8d20672224\\res\\values-v26\\values-v26.xml",

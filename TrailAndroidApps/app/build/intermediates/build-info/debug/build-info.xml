@@ -7,83 +7,75 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1524538203969"
-    token="-3735192292178707282"
+    timestamp="1524715158239"
+    token="4342236368126281201"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="795" />
+        duration="4419" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="27" />
+        duration="24" />
     <task
         name="verifier"
         duration="11" />
 
     <artifact
-        location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1524536049876"
+        timestamp="1524626261871"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1524537062861"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\outputs\apk\debug\app-debug.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1524538203969"
+        timestamp="1524715158239"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Reda\Documents\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Reda\Documents\GitHub\TrailAndroidApps\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
     </build>
 

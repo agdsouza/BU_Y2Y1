@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Reda\\Documents\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "C:\\Users\\Reda\\Documents\\GitHub\\TrailAndroidApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Reda\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\8e755e6f2a8c30f8b1fdfd7bc58086bf\\res\\values-km\\values.xml",

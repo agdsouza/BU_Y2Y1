@@ -7,66 +7,65 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="321dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
+        android:layout_width="358dp"
+        android:layout_height="444dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
         android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/longterm_linear"
-            android:layout_width="296dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/tvLongtermLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignStart="@+id/linearLayout2"
                     android:layout_below="@+id/btnFetchLottery"
                     android:layout_weight="1"
                     android:text="Long-term Lottery (Morning) for "
-                    android:textSize="18sp" />
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvLongtermDate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="40dp"
-                android:orientation="horizontal">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvLTLotteryNum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:textSize="24sp" />
+
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ebed_linear"
-            android:layout_width="296dp"
-            android:layout_height="124dp"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="354dp"
+                android:layout_height="99dp"
                 android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
                 android:orientation="vertical">
 
                 <TextView
@@ -74,39 +73,35 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="E-bed Lottery (Evening) for "
-                    android:textSize="18sp" />
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvEBedDate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginBottom="40dp"
-                android:orientation="horizontal">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvELotteryNum"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:textSize="24sp" />
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/lastcall_linear"
-            android:layout_width="296dp"
-            android:layout_height="124dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="40dp"
+                android:gravity="center_horizontal"
                 android:orientation="vertical">
 
                 <TextView
@@ -116,26 +111,21 @@
                     android:layout_alignStart="@+id/linearLayout2"
                     android:layout_weight="1"
                     android:text="Last call Lottery (Morning) for "
-                    android:textSize="18sp" />
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvLastCallDate"
-                    android:layout_width="306dp"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="39dp"
-                android:layout_marginBottom="40dp"
-                android:orientation="horizontal">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/tvLCLotteryNum"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:textSize="24sp" />
+
             </LinearLayout>
 
         </LinearLayout>

@@ -1,4 +1,4 @@
-#Mon Apr 23 22:15:04 EDT 2018
-base.0=C\:\\Users\\Reda\\Documents\\TrailAndroidApps\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+#Tue Apr 24 17:44:55 EDT 2018
+base.0=C\:\\Users\\Reda\\Documents\\GitHub\\TrailAndroidApps\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
 path.0=classes.dex
 renamed.0=classes.dex
