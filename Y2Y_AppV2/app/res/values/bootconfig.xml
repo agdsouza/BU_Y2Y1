@@ -9,3 +9,13 @@
     </string-array>
     <string name="androidPushNotificationClientId"></string>
 </resources>
+
+<!--<resources>-->
+    <!--<string name="remoteAccessConsumerKey">3MVG9U_dUptXGpYIRSyjmJ.eOZ.M.0GieqpxmZmxurppwSC5qizKfYN0hg3uQKfT_JP8cUFT6fR2lQKF_sP5R</string>-->
+    <!--<string name="oauthRedirectURI">https://y2y2018&#45;&#45;BUSpark.cs68.my.salesforce.com/services/authcallback/GoogleAuth</string>-->
+    <!--<string-array name="oauthScopes">-->
+        <!--<item>api</item>-->
+        <!--<item>web</item>-->
+    <!--</string-array>-->
+    <!--<string name="androidPushNotificationClientId"></string>-->
+<!--</resources>-->
