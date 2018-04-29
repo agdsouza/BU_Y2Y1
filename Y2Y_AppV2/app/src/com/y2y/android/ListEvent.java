@@ -2,7 +2,10 @@ package com.y2y.android;
 
 /*
 
-This class defines what the ListEvent type would contain.
+This class defines what the ListEvent type would contain. Cuurently, it would contain the following:
+the event ID, the name of the event, the start tie of the event, the end time of the event, the event
+date, the event description (which would hole to RSVPs), and the event location.
+Make sure when creating a list event, you input the values in the order shown below.
 If you want to pull something else from Event then you have to add that field below.
 
 */

@@ -1,5 +1,6 @@
 package com.y2y.android;
 
+
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -9,6 +10,8 @@ import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.api.client.util.StringUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -67,7 +70,8 @@ public class EventCustomAdapter extends BaseAdapter {
 
         rsvp_str = eventArray.get(position).getEventDescription();
 
-        //Get all the contacts in the Description
+        //Get all the contacts in the Description and split it by the delimiter to produce a list of
+        //RSVP names.
         String[] rsvp_contacts = rsvp_str.split(", ");
         rsvp_lst = Arrays.asList(rsvp_contacts);
 
@@ -100,7 +104,8 @@ public class EventCustomAdapter extends BaseAdapter {
                         eventArray.get(position).getEventEndTime());
             }
             else{
-                tvEventTime.setText(eventArray.get(position).getEventDate());
+                tvEventTime.setText(eventArray.get(position).getEventLocation() + "\n" +
+                        eventArray.get(position).getEventDate());
             }
         }
 
@@ -112,14 +117,46 @@ public class EventCustomAdapter extends BaseAdapter {
                 if(cbRSVP.isChecked()){
                     try{
                         event_id = eventArray.get(position).getEventId();
-                        Log.v("B4 main_act ", event_id);
                         //If there are no previous RSVPs, call the method to add a comma then the name
-                        if (rsvp_str.equals("null")){
-                            HFL.postRSVP(event_id, rsvp_str + ", dumb");
+                        if (rsvp_str != "null"){
+                            HFL.postRSVP(event_id, rsvp_str + ", Monica Chiu");
                         }
                         //If there are previous RSVPs, call the method and just add the name into the descripton
                         else{
-                            HFL.postRSVP(event_id, "dumber");
+                            HFL.postRSVP(event_id, "Reda Ijaz");
+                        }
+                    }
+                    catch (IOException e){
+                        e.printStackTrace();
+                    }
+                }
+
+                //If RSVP is unchecked, remove current user from the list of RSVPs.
+                else{
+                    try{
+                        event_id = eventArray.get(position).getEventId();
+                        //If the rsvp lst is not null, check for the current user's name
+                        if (rsvp_str != "null"){
+                            StringBuilder strcat = new StringBuilder();
+                            String delimiter = ",";
+                            String[] split = rsvp_str.split(",");
+                            List lst = Arrays.asList(split);
+
+                            //If it contains the current user, remove the user from the lst.
+                            if (lst.contains("Monica Chiu")){
+                                lst.remove("Monica Chiu");
+                            }
+
+                            //Recreate the RSVP lst in the description as comma seprarted string
+                            for(int i = 0; i < lst.size(); i++){
+                                strcat.append(delimiter);
+                                strcat.append(lst.get(i));
+                                delimiter = ",";
+                            }
+
+                            //Set the new rspv_str and push it to the database.
+                            rsvp_str = strcat.toString();
+                            HFL.postRSVP(event_id, rsvp_str);
                         }
                     }
                     catch (IOException e){

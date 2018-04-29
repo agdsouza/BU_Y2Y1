@@ -92,10 +92,11 @@ public class ScheduleFragment extends Fragment{
             String startTimeString = "";
             String endTimeString = "";
 
-            // check if event occurs all day
+            // Uf the event occurs all day then just set the starttime variable to "all-day
             if(isAllDayEvent.equals("true")){
                 startTimeString = "All-Day";
-            } else{ // check for start and end time and format appropriately
+            }
+            else{ // check for start and end time and format appropriately
                 String[] startDate_splice = StartDateTime.split("T");
                 String startDateString = startDate_splice[0];
 
@@ -115,7 +116,8 @@ public class ScheduleFragment extends Fragment{
                 // if it's a one-day event, ActivityDate will just be the startDateString
                 if (startDateString.equals(endDateString)){
                     ActivityDate = startDateString;
-                } else {
+                } else {//If the event occurs across multiple days, you need to display the start
+                    // and end date along with the start and end time.
                     ActivityDate = "";
                     startTimeString = startDateString + " " + startTimeString;
                     endTimeString = endDateString + " " + endTimeString;
@@ -123,7 +125,8 @@ public class ScheduleFragment extends Fragment{
 
             }
 
-//            // Logging for debugging
+            /** Logging for debugging. Can use to check what information is going into the adapter for
+            //custom list views **/
 //            Log.e("id", ID);
 //            Log.e("name", EventName);
 //            Log.e("start", startTimeString);
