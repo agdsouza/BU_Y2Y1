@@ -22,12 +22,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Sandbox</find>
       <find>production</find>
+      <find>flag.secure</find>
+      <find>flag</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -6509,13 +6511,23 @@
         <option value="$PROJECT_DIR$/mobile_sdk/SalesforceMobileSDK-Android/hybrid/HybridSampleApps/NoteSync/res/xml/servers.xml" />
         <option value="$PROJECT_DIR$/app/res/values/bootconfig.xml" />
         <option value="$PROJECT_DIR$/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SalesforceSDKTest/res/xml/servers.xml" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/ListEvent.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/EventCustomAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/LotteryFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/ScheduleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/FeedbackFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/com/y2y/android/SurveyFragment.java" />
+        <option value="$PROJECT_DIR$/app/res/values/strings.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-4" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
@@ -6532,9 +6544,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -6545,13 +6558,25 @@
             <path>
               <item name="Y2Y_AppV2" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Y2Y_AppV2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Y2Y_AppV2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="MainApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Y2Y_AppV2" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Y2Y_AppV2" type="1abcf292:AndroidViewProjectNode" />
@@ -6575,7 +6600,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -6584,7 +6608,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.0.1" />
     <property name="device.picker.selection" value="02157df27940100b" />
-    <property name="SearchEverywhereHistoryKey" value="production&#9;PSI&#9;JAVA://com.y2y.android.R.id#production&#10;server&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SalesforceReactTest/res/xml/servers.xml&#10;ser&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SmartSyncTest/res/xml/servers.xml&#10;servers.xml&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SalesforceSDKTest/res/xml/servers.xml" />
+    <property name="SearchEverywhereHistoryKey" value="layoutparams&#9;PSI&#9;JAVA://android.support.constraint.Constraints.LayoutParams&#10;production&#9;PSI&#9;JAVA://com.y2y.android.R.id#production&#10;server&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SalesforceReactTest/res/xml/servers.xml&#10;ser&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SmartSyncTest/res/xml/servers.xml&#10;servers.xml&#9;FILE&#9;file://C:/Users/mcsbu/OneDrive/Documents/GitHub/BU_Y2Y1/Y2Y_AppV2/mobile_sdk/SalesforceMobileSDK-Android/libs/test/SalesforceSDKTest/res/xml/servers.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -6766,7 +6790,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-4" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -6827,7 +6851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6875,6 +6898,220 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/app/ActionBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="1347" column="24" lean-forward="false" selection-start-line="1347" selection-start-column="24" selection-end-line="1347" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/view/WindowManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="186" column="24" lean-forward="false" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="7434" column="24" lean-forward="false" selection-start-line="7434" selection-start-column="24" selection-end-line="7434" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/widget/AbsListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1736" column="41" lean-forward="false" selection-start-line="1736" selection-start-column="41" selection-end-line="1736" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/widget/AbsoluteLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="157" column="24" lean-forward="false" selection-start-line="157" selection-start-column="24" selection-end-line="157" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/widget/ActionMenuView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="789" column="24" lean-forward="false" selection-start-line="789" selection-start-column="24" selection-end-line="789" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.0/877b5b7b69188d19a2705de30ca29121457f5154/recyclerview-v7-27.1.0-sources.jar!/android/support/v7/widget/GridLayoutManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1141" column="24" lean-forward="false" selection-start-line="1141" selection-start-column="24" selection-end-line="1141" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/27.1.0/f734fb8b464907dc723c05aa6bfbaea63c29953/appcompat-v7-27.1.0-sources.jar!/android/support/v7/widget/LinearLayoutCompat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1767" column="24" lean-forward="false" selection-start-line="1767" selection-start-column="24" selection-end-line="1767" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.0/877b5b7b69188d19a2705de30ca29121457f5154/recyclerview-v7-27.1.0-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="11200" column="24" lean-forward="false" selection-start-line="11200" selection-start-column="24" selection-end-line="11200" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/appcompat-v7/27.1.0/f734fb8b464907dc723c05aa6bfbaea63c29953/appcompat-v7-27.1.0-sources.jar!/android/support/v7/widget/Toolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="2206" column="24" lean-forward="false" selection-start-line="2206" selection-start-column="24" selection-end-line="2206" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e6066851ab7b63167ec7bee415534b2f/jars/classes.jar!/android/support/constraint/ConstraintLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1271" column="24" lean-forward="false" selection-start-line="1271" selection-start-column="24" selection-end-line="1271" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/e6066851ab7b63167ec7bee415534b2f/jars/classes.jar!/android/support/constraint/Constraints.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/HandbookFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/EventCustomAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#3705#4731#0" expanded="false" />
+            <element signature="e#4730#4731#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/ListEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#836#837#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1051#1052#0" expanded="false" />
+            <element signature="e#1086#1087#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
+            <element signature="e#1274#1275#0" expanded="false" />
+            <element signature="e#1310#1311#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/LotteryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/ScheduleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="123" column="13" lean-forward="true" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/HomeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/SurveyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/FeedbackFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="63" column="126" lean-forward="false" selection-start-line="63" selection-start-column="126" selection-end-line="63" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/com/y2y/android/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="359" column="7" lean-forward="false" selection-start-line="359" selection-start-column="7" selection-end-line="359" selection-end-column="7" />
+          <folding>
+            <element signature="e#4206#4657#0" expanded="false" />
+            <element signature="e#4656#4657#0" expanded="false" />
+            <element signature="method#onFetchBed#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onFetchLottery#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onFetchLotteryNumber#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onFetchEvents#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#sendRequest#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#sendBedSoqlRequest1#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#sendBedSoqlRequest2#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#sendLotterySoqlRequest1#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#sendLotterySoqlRequest2#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>

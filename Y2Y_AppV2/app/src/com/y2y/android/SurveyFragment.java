@@ -44,33 +44,40 @@ public class SurveyFragment extends Fragment {
     private RatingBar ratingbar;
     private EditText edtSurveyBox;
     private Button btnSubmitSurvey;
+
+    // Get instance of interface to communicate with MainActivity
     ControlFragInterface HFL;
 
     @Override
-    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
+    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner activity
         super.onAttach(context);
-        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, let's bind it to our interface.
+        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Get view that inflates the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_survey, container, false);
+
+        // Find view that is defined in layout having the respective id
         ratingbar = (RatingBar) view.findViewById(R.id.ratingbar);
         edtSurveyBox = view.findViewById(R.id.edtSurveyBox);
         btnSubmitSurvey = view.findViewById(R.id.btnSubmitSurvey);
 
+        // Button listens for input for the submit button at which point the input in the survey rating and survey box edittext will be sent to
+        // the method postSurvey in MainActivity which will call the necessary soql queries and post the standard survey in Salesforce
         btnSubmitSurvey.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try{
+                    // Get the comments in survey box and a float rating and send to postSurvey method
                     String edtValue = edtSurveyBox.getText().toString();
                     float rating =  ratingbar.getRating();
                     HFL.postSurvey(rating, edtValue);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+                // Clear survey box once submitted
                 edtSurveyBox.setText("");
 
             }

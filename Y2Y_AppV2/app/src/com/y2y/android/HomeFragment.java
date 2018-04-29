@@ -26,46 +26,38 @@ public class HomeFragment extends Fragment {
     private TextView tvStayLabel;
     private TextView tvWarningLabel;
     private TextView tvLockerLabel;
-//    private Button btnFetch;
 
+    // Get instance of interface to communicate with MainActivity
     ControlFragInterface HFL;
 
-
     @Override
-    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
+    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner activity
         super.onAttach(context);
-        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, let's bind it to our interface.
+        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
     }
 
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        // Get view that inflates the layout
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        tvNameLabel = (TextView)view.findViewById(R.id.tvNameLabel);
-        tvBedLabel = (TextView)view.findViewById(R.id.tvBedLabel);
-        tvStayLabel = (TextView)view.findViewById(R.id.tvStayLabel);
-        tvWarningLabel = (TextView)view.findViewById(R.id.tvWarningLabel);
-        tvLockerLabel = (TextView)view.findViewById(R.id.tvLockerLabel);
-//        btnFetch = (Button)view.findViewById(R.id.btnFetch);
 
-//        btnFetch.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                try {
-//                    HFL.onFetchDetailsStay(v);
-//                    HFL.onFetchBed(v);
-//                } catch (UnsupportedEncodingException e1) {
-//                    e1.printStackTrace();
-//                }
-//            }
-//        });
+        // Find view that is defined in layout having the respective id
+        tvNameLabel = view.findViewById(R.id.tvNameLabel);
+        tvBedLabel = view.findViewById(R.id.tvBedLabel);
+        tvStayLabel = view.findViewById(R.id.tvStayLabel);
+        tvWarningLabel = view.findViewById(R.id.tvWarningLabel);
+        tvLockerLabel = view.findViewById(R.id.tvLockerLabel);
+
         return view;
     }
 
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        // onFetchDetailsStay and onFetchBed calls methods in MainActivity that sends rest requests to Salesforce with the
+        // appropriate soql queries and returns the records to setDetailsStay and setBed that displays them.
         try {
             HFL.onFetchDetailsStay(view);
             HFL.onFetchBed(view);
@@ -75,6 +67,8 @@ public class HomeFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
     }
 
+    // setDetailsStay goes through the records sent from MainActivity and depending on the bed type,
+    // diplays the name of consumer, last date of stay, warnings, and locker combination
     public void setDetailsStay(JSONArray records) throws JSONException {
         String the_name = records.getJSONObject(0).getString("Name");
         tvNameLabel.setText("Hello " + the_name + "!");
@@ -89,6 +83,8 @@ public class HomeFragment extends Fragment {
 
     }
 
+    // setBed displays the records from MainActivity for the bed area and is separate from setDetailsStay
+    // due to a different nested soql query that requires a different set of methods
     public void setBed(JSONArray records) throws JSONException {
         String the_bed = records.getJSONObject(0).getString("Name");
         tvBedLabel.setText("Bed: " + the_bed);

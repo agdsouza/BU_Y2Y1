@@ -543,19 +543,19 @@ public final class R {
         public static final int common_signin_button_text_long = 0x7f0f005f;
         public static final int fcm_fallback_notification_channel_label = 0x7f0f0062;
         public static final int gcm_fallback_notification_channel_label = 0x7f0f0064;
-        public static final int place_autocomplete_clear_button = 0x7f0f0082;
-        public static final int place_autocomplete_search_hint = 0x7f0f0083;
-        public static final int s1 = 0x7f0f0086;
-        public static final int s2 = 0x7f0f0087;
-        public static final int s3 = 0x7f0f0088;
-        public static final int s4 = 0x7f0f0089;
-        public static final int s5 = 0x7f0f008a;
-        public static final int s6 = 0x7f0f008b;
-        public static final int s7 = 0x7f0f008c;
-        public static final int tagmanager_preview_dialog_button = 0x7f0f00e2;
-        public static final int tagmanager_preview_dialog_message = 0x7f0f00e3;
-        public static final int tagmanager_preview_dialog_title = 0x7f0f00e4;
-        public static final int wallet_buy_button_place_holder = 0x7f0f00e6;
+        public static final int place_autocomplete_clear_button = 0x7f0f0081;
+        public static final int place_autocomplete_search_hint = 0x7f0f0082;
+        public static final int s1 = 0x7f0f0085;
+        public static final int s2 = 0x7f0f0086;
+        public static final int s3 = 0x7f0f0087;
+        public static final int s4 = 0x7f0f0088;
+        public static final int s5 = 0x7f0f0089;
+        public static final int s6 = 0x7f0f008a;
+        public static final int s7 = 0x7f0f008b;
+        public static final int tagmanager_preview_dialog_button = 0x7f0f00e1;
+        public static final int tagmanager_preview_dialog_message = 0x7f0f00e2;
+        public static final int tagmanager_preview_dialog_title = 0x7f0f00e3;
+        public static final int wallet_buy_button_place_holder = 0x7f0f00e5;
     }
     public static final class style {
         public static final int CastExpandedController = 0x7f1000a5;

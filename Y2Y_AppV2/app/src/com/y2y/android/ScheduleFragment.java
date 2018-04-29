@@ -36,30 +36,31 @@ public class ScheduleFragment extends Fragment{
     CheckBox cbRSVP;
 
     @Override
-    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
+    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner activity
         super.onAttach(context);
-        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, let's bind it to our interface.
+        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        // Get view that inflates the layout
         View view = inflater.inflate(R.layout.fragment_schedule, container, false);
-        mOutputText = (TextView) view.findViewById(R.id.tvSchedHeader);
-        lvEvents = (ListView) view.findViewById(R.id.lvEvents);
-        cbRSVP = (CheckBox) view.findViewById(R.id.cbRSVP);
+
+        // Find view that is defined in layout having the respective id
+        mOutputText = view.findViewById(R.id.tvSchedHeader);
+        lvEvents = view.findViewById(R.id.lvEvents);
+        cbRSVP = view.findViewById(R.id.cbRSVP);
         eventArray = new ArrayList<ListEvent>();
 
-        //Call the method in the Control Fragment Interface that gets all the events.
+        // onFetchEvents calls methods in MainActivity that sends rest requests to Salesforce with the
+        // appropriate soql queries and returns the records to setEvents that displays them.
         try{
             HFL.onFetchEvents(view);
-        }
-
-        catch(UnsupportedEncodingException e) {
+        } catch(UnsupportedEncodingException e) {
             Log.v("ERROR:", "YOU CANT DO THIS");
             e.printStackTrace();
         }
-
 
         return view;
 
@@ -76,6 +77,8 @@ public class ScheduleFragment extends Fragment{
     public void setEvents(JSONArray records) throws JSONException{
         List<String> eventStrings = new ArrayList<String>();
         int num_events = records.length();
+
+        // get all the fields for the events object we need and retrieve them from the record
         for (int event_row = 0; event_row<num_events; event_row++){
             String ID = records.getJSONObject(event_row).getString("Id");
             String EventName = records.getJSONObject(event_row).getString("Subject");
@@ -89,12 +92,10 @@ public class ScheduleFragment extends Fragment{
             String startTimeString = "";
             String endTimeString = "";
 
-
+            // check if event occurs all day
             if(isAllDayEvent.equals("true")){
                 startTimeString = "All-Day";
-            }
-
-            else{
+            } else{ // check for start and end time and format appropriately
                 String[] startDate_splice = StartDateTime.split("T");
                 String startDateString = startDate_splice[0];
 
@@ -102,7 +103,6 @@ public class ScheduleFragment extends Fragment{
                 StringBuilder sb = new StringBuilder(startTime_splice[0]);
                 sb.delete(4, 11);
                 startTimeString = sb.toString();
-
 
                 String[] endDate_splice = EndDateTime.split("T");
                 String endDateString = endDate_splice[0];
@@ -112,11 +112,10 @@ public class ScheduleFragment extends Fragment{
                 sb.delete(4, 11);
                 endTimeString = sb.toString();
 
+                // if it's a one-day event, ActivityDate will just be the startDateString
                 if (startDateString.equals(endDateString)){
                     ActivityDate = startDateString;
-                }
-
-                else {
+                } else {
                     ActivityDate = "";
                     startTimeString = startDateString + " " + startTimeString;
                     endTimeString = endDateString + " " + endTimeString;
@@ -124,11 +123,14 @@ public class ScheduleFragment extends Fragment{
 
             }
 
-            Log.e("id", ID);
-            Log.e("name", EventName);
-            Log.e("start", startTimeString);
-            Log.e("end", endTimeString);
-            Log.e("date", ActivityDate);
+//            // Logging for debugging
+//            Log.e("id", ID);
+//            Log.e("name", EventName);
+//            Log.e("start", startTimeString);
+//            Log.e("end", endTimeString);
+//            Log.e("date", ActivityDate);
+
+            // Add the list event with the populated fields to the event array and then to the event custom adapter
             ListEvent e = new ListEvent(ID, EventName, startTimeString, endTimeString, ActivityDate, Description, Location);
             eventArray.add(e);
             lvAdapter = new EventCustomAdapter(vCont, eventArray);

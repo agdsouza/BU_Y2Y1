@@ -104,17 +104,20 @@ public class EventCustomAdapter extends BaseAdapter {
             }
         }
 
-
+        //If someone checks or unchecks the RSVP checkbox, this method will be alerted
         cbRSVP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //If the RSVP button has been checked, this will be executed
                 if(cbRSVP.isChecked()){
                     try{
                         event_id = eventArray.get(position).getEventId();
                         Log.v("B4 main_act ", event_id);
+                        //If there are no previous RSVPs, call the method to add a comma then the name
                         if (rsvp_str.equals("null")){
                             HFL.postRSVP(event_id, rsvp_str + ", dumb");
                         }
+                        //If there are previous RSVPs, call the method and just add the name into the descripton
                         else{
                             HFL.postRSVP(event_id, "dumber");
                         }
@@ -125,7 +128,7 @@ public class EventCustomAdapter extends BaseAdapter {
                 }
             }
         });
-
+        //The view of the event row is returned to be displayed
         return row;
     }
 }

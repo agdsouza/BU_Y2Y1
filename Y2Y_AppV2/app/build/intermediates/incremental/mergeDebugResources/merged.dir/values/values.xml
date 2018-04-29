@@ -1249,7 +1249,6 @@
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="feedbacktext">Tell us what you like about Y2Y, or if you have suggestions for how we can be better!</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_cast_button_connected">Cast button. Connected</string>
     <string name="mr_cast_button_connecting">Cast button. Connecting</string>

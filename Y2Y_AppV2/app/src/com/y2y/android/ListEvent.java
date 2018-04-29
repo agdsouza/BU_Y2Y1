@@ -1,5 +1,12 @@
 package com.y2y.android;
 
+/*
+
+This class defines what the ListEvent type would contain.
+If you want to pull something else from Event then you have to add that field below.
+
+*/
+
 public class ListEvent {
 
     private String eventId;

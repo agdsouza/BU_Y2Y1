@@ -111,7 +111,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
                 }
         );
 	}
-
 	
 	@Override
 	public void onResume() {
@@ -145,6 +144,8 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		sendBedSoqlRequest1("SELECT Contact.Id FROM Contact WHERE (Name='Monica Chiu')");
 	}
 
+	// Send soql query through sendRequest
+	// Flow: onFetchLottery -> sendRequest -> LotteryFragment's method setLottery to display the data
 	public void onFetchLottery(View v) throws UnsupportedEncodingException {
 		String soqlquery = "SELECT Name, Lottery_Date__c, Type__c FROM Lottery__c WHERE (Lottery_Date__c=" + current_date + ") ORDER BY Type__c ASC";
 //		sendRequest(soqlquery);
@@ -224,7 +225,10 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					public void run() {
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
+							// Gets guest id and sends an additional query for the name of the bed region
 							String guest_id = records.getJSONObject(0).getString("Id");
+							// Salesforce only allows one level of nested query so this will use the guest id gotten from
+							// the previous soql query to get bed region name
 							String soql_the_bedName = "SELECT Name FROM Bed__c WHERE Bed__c.Id IN (SELECT Bed_Assignment__c.Bed__c FROM Bed_Assignment__c WHERE Bed_Assignment__c.Guest__c='" +
 									guest_id + "')";
 							sendBedSoqlRequest2(soql_the_bedName);
@@ -245,6 +249,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// After getting the name of the bed area, send the records to the lotteryfragment's setLottery method to display
 	public void sendBedSoqlRequest2(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -295,6 +300,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 							for (int i=0;i<records.length();i++) {
 								// Get lottery entry id to be used in additional soql query to get lottery entry number to be displayed
 								String a_lot_name = records.getJSONObject(i).getString("Name");
+								// Using lottery entry id, get the lottery number daily that we want and send it to sendLotterySoqlRequest2 to be displayed
 								String soql_the_lotName = "SELECT Lottery__c, Lottery_Number_Daily__c FROM Lottery_Entry__c WHERE (Lottery__c='" + a_lot_name + "')";
 								sendLotterySoqlRequest2(soql_the_lotName);
 							}
@@ -316,6 +322,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		});
 	}
 
+	// After getting the lottery number daily numbers, send the records to the lotteryfragment's setLotteryNumber method to display
 	public void sendLotterySoqlRequest2(String soql) throws UnsupportedEncodingException {
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 
@@ -328,7 +335,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 					public void run() {
 						try {
 							JSONArray records = result.asJSONObject().getJSONArray("records");
-							// After getting lottery entry number, call fragment method to display it
+							// After getting lottery entry number, call lottery fragment method setLotteryNumber to display it
 							LotteryFragment receivingFragment = (LotteryFragment) getFragmentManager().findFragmentByTag("LotteryScreen");
 							receivingFragment.setLotteryNumber(records);
 
@@ -350,6 +357,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	}
 
 	// Additional soql queries for deeply nested queries for Event object
+	// Get the list of events to populate the Calendar page
 	public void sendEventRequest(String soql) throws UnsupportedEncodingException{
 		RestRequest restRequest = RestRequest.getRequestForQuery(ApiVersionStrings.getVersionNumber(this), soql);
 

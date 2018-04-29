@@ -38,20 +38,22 @@ public class LotteryFragment extends Fragment {
     private String E_lottery_numbers = "";
     private String LC_lottery_numbers = "";
 
-
+    // Get instance of interface to communicate with MainActivity
     ControlFragInterface HFL;
 
     @Override
-    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner.  Fragments are hosted by Activities, therefore, context refers to: ____________?
+    public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner activity
         super.onAttach(context);
-        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, let's bind it to our interface.
+        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
     }
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        // Get view that inflates the layout
         View view = inflater.inflate(R.layout.fragment_lottery, container, false);
 
+        // Find view that is defined in layout having the respective id
         tvLongtermLabel = (TextView) view.findViewById(R.id.tvLongtermLabel);
         tvLongtermDate = (TextView) view.findViewById(R.id.tvLongtermDate);
         tvLTLotteryNum = (TextView) view.findViewById(R.id.tvLTLotteryNum);
@@ -67,13 +69,14 @@ public class LotteryFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        // onFetchLottery and onFetchLotteryNumber calls methods in MainActivity that sends rest requests to Salesforce with the
+        // appropriate soql queries and returns the records to setLottery and setLotteryNumber that displays them.
         try {
             HFL.onFetchLottery(view);
             HFL.onFetchLotteryNumber(view);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-//        new LongOperation().execute("my string parameter");
 
         super.onViewCreated(view, savedInstanceState);
     }
@@ -81,7 +84,8 @@ public class LotteryFragment extends Fragment {
     public void setLottery(JSONArray records) throws JSONException {
         // save lottery records (need bed type) to get lottery number
         lotteryrecords = records;
-        //currently using date 2018-04-10 which has all 3 bed types to demonstrate
+        // currently using date 2018-04-10 which has all 3 bed types to demonstrate
+        // according to bed type, display the bed type and date of the bed assignment
         for (int i = 0; i < records.length(); i++) {
             if (records.getJSONObject(i).getString("Type__c").equals("Long Term")) {
                 String longtermlabel = records.getJSONObject(i).getString("Type__c");
@@ -105,14 +109,15 @@ public class LotteryFragment extends Fragment {
     }
 
     public void setLotteryNumber(JSONArray records) throws JSONException {
-        //currently using date 2018-04-10 which has all 3 bed types to demonstrate
+        // currently using date 2018-04-10 which has all 3 bed types to demonstrate
         for (int i = 0; i < records.length(); i++) {
             String lotterynum = records.getJSONObject(i).getString("Lottery_Number_Daily__c");
             for (int j = 0; j < lotteryrecords.length(); j++) {
                 String lotteryID = records.getJSONObject(i).getString("Lottery__c");
-                // lottery ID in lottery entry object contains 3 chars at the end that doesn't match with lottery object
+                // lottery ID in lottery entry object contains 3 chars at the end that doesn't match with lottery object so needs to be removed
                 lotteryID = lotteryID.substring(0,lotteryID.length()-3);
 
+                // add lottery number winners to respective lottery number types to be displayed later
                 if ( lotteryrecords.getJSONObject(j).getString("Name").equals(lotteryID) ){
                     if (lotteryrecords.getJSONObject(j).getString("Type__c").equals("Long Term")) {
                         LT_lottery_numbers = LT_lottery_numbers + lotterynum + ", ";
@@ -126,6 +131,7 @@ public class LotteryFragment extends Fragment {
                 }
             }
         }
+        // display the lottery number winners for each respective bed type
         tvLTLotteryNum.setText("Lottery #: " + LT_lottery_numbers);
         tvELotteryNum.setText("Lottery #: " + E_lottery_numbers);
         tvLCLotteryNum.setText("Lottery #: " + LC_lottery_numbers);
