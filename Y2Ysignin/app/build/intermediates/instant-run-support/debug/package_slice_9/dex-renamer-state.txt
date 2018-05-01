@@ -1,4 +1,0 @@
-#Mon Apr 02 22:08:11 EDT 2018
-base.0=C\:\\Users\\Monica\\Documents\\GitHub\\BU_Y2Y1\\Y2Ysignin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
-path.0=classes.dex
-renamed.0=classes.dex

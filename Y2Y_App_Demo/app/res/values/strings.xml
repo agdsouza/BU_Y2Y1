@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_type">com.y2y.android.login</string>
+    <string name="app_name"><b>Y2Y_App_Demo</b></string>
+    <string name="app_package">com.y2y.android</string>
+    <string name="drawer_opened">drawer opened</string>
+    <string name="drawer_closed">drawer closed</string>
+
+    <string name="enter_feedback">Enter feedback here</string>
+    <string name="feedbacktext">Tell us what you like about Y2Y, or if you have suggestions for how we can be better!</string>
+    <string name="submit">Submit</string>
+
+    <string name="upcoming">Upcoming Events</string>
+    <string name="attend_without_rsvp">You can attend events without RSVPing</string>
+    <string name="have_questions">Have questions about an event? Ask a staff member!</string>
+
+    <string name="event">Event</string>
+    <string name="time">Time</string>
+    <string name="rsvp">RSVP</string>
+
+    <string name="action_text">Here are your ongoing goals and action items. We would love to hear of any goals or progress!</string>
+    <string name="complete">Complete</string>
+    <string name="drop">Drop</string>
+    <string name="na">N/A</string>
+    <string name="why">Why?</string>
+    <string name="save_change">Save Changes</string>
+    <string name="update_info">Update Info</string>
+
+    <string name="handbook">Y2Y Handbook</string>
+
+    <string name="name_label">Name: </string>
+    <string name="bed_label">Bed: </string>
+    <string name="last_stay_label">Last Day of Stay: </string>
+    <string name="warning_label"># of Warnings: </string>
+    <string name="locker_label">Locker Combination: </string>
+
+    <string name="long_lottery">Long-term Lottery (Morning) for </string>
+    <string name="ebed_lottery">E-bed Lottery (Evening) for </string>
+    <string name="lastcall_lottery">Last call Lottery (Morning) for </string>
+
+    <string name="how_are_you">How Are You Doing Today</string>
+    <string name="terrible">Terrible</string>
+    <string name="excellent">Excellent</string>
+    <string name="tell_more">Tell Us More:</string>
+    <string name="enter_comment_here">Enter comment here</string>
+
+</resources>

@@ -1,0 +1,19 @@
+#Mon Apr 30 21:57:47 EDT 2018
+path.1=classes.dex
+path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\36
+base.4=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+base.3=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
+base.2=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
+base.1=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
+base.0=C\:\\Users\\Monica\\Desktop\\Demo\\Y2Y_App_Demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
