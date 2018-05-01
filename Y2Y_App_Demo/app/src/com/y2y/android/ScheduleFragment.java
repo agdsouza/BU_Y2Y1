@@ -92,6 +92,9 @@ public class ScheduleFragment extends Fragment{
             String startTimeString = "";
             String endTimeString = "";
 
+            Log.v("EVENT ", EventName);
+            Log.v("TIME ", StartDateTime);
+
             // Uf the event occurs all day then just set the starttime variable to "all-day
             if(isAllDayEvent.equals("true")){
                 startTimeString = "All-Day";
@@ -101,17 +104,31 @@ public class ScheduleFragment extends Fragment{
                 String startDateString = startDate_splice[0];
 
                 String[] startTime_splice = startDate_splice[1].split("\\+");
-                StringBuilder sb = new StringBuilder(startTime_splice[0]);
-                sb.delete(4, 11);
+                String[] temp_stime = startTime_splice[0].split(":");
+                int stime = Integer.parseInt(temp_stime[0]) - 4;
+                if (stime < 0) {
+                    stime = stime + 24;
+                }
+                StringBuilder sb = new StringBuilder();
+                sb.append(Integer.toString(stime));
+                sb.append(":");
+                sb.append(temp_stime[1]);
                 startTimeString = sb.toString();
 
                 String[] endDate_splice = EndDateTime.split("T");
                 String endDateString = endDate_splice[0];
 
                 String[] endTime_splice = endDate_splice[1].split("\\+");
-                sb = new StringBuilder(endTime_splice[0]);
-                sb.delete(4, 11);
-                endTimeString = sb.toString();
+                String[] temp_etime = endTime_splice[0].split(":");
+                int etime = Integer.parseInt(temp_etime[0]) - 4;
+                if (etime < 0) {
+                    etime = etime + 24;
+                }
+                StringBuilder sb_end = new StringBuilder();
+                sb_end.append(Integer.toString(etime));
+                sb_end.append(":");
+                sb_end.append(temp_etime[1]);
+                endTimeString = sb_end.toString();
 
                 // if it's a one-day event, ActivityDate will just be the startDateString
                 if (startDateString.equals(endDateString)){

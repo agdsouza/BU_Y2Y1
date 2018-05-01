@@ -179,7 +179,7 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 	 */
 	public void onFetchActionItems(View v) throws UnsupportedEncodingException{
 //		Toast.makeText(getApplicationContext(), "hey there 2", Toast.LENGTH_LONG).show();
-		sendActionIdSoqlRequest1("SELECT Contact.Id FROM Contact WHERE (Name='Adam Adkinson')");
+		sendActionIdSoqlRequest1("SELECT Contact.Id FROM Contact WHERE (Name='Monica Chiu')");
 	}
 
 	// Get records from SOQL query and call fragment methods
@@ -724,7 +724,6 @@ public class MainActivity extends SalesforceActivity implements ControlFragInter
 		// add the value of today's date into the hashmap
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-mm-dd");
 		String date = df.format(new Date());
-		createReasonUpdateInfo.put("Date__c", date);
 		// add the value of the reason for the update into the hashmap
 		createReasonUpdateInfo.put("Update__c", reason);
 

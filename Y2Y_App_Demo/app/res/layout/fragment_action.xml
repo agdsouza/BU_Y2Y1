@@ -96,6 +96,7 @@
         android:id="@+id/lnActionItems"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="5dp"
         android:layout_weight="3"
         android:orientation="vertical">
 
@@ -112,6 +113,7 @@
         android:id="@+id/lnWhy"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="5dp"
         android:layout_weight="1.5"
         android:orientation="vertical">
 
@@ -119,10 +121,12 @@
             android:id="@+id/edtWhy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/feedbackboxborder"
             android:ems="10"
-            android:gravity="top|left"
+            android:gravity="top"
             android:hint="@string/why"
             android:inputType="textMultiLine"
+            android:padding="5dp"
             android:visibility="gone"/>
     </LinearLayout>
 
@@ -139,32 +143,36 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnSaveNote"
+                style="@style/ButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:text="@string/save_change"
-                style="@style/ButtonStyle"/>
+                android:text="@string/save_change"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnSave"
+                style="@style/ButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:text="@string/update_info"
-                style="@style/ButtonStyle"/>
+                android:text="@string/update_info"/>
         </LinearLayout>
 
     </LinearLayout>

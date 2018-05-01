@@ -85,8 +85,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="44dp"
-        android:background="@color/colorPrimary"
         android:text="@string/submit"
-        android:textColor="@android:color/white" />
+        style="@style/ButtonStyle"/>
 
 </RelativeLayout>

@@ -91,7 +91,8 @@ public class EventCustomAdapter extends BaseAdapter {
             }
             //If it is an all-day event, just show the event date.
             else{
-                tvEventTime.setText(eventArray.get(position).getEventDate());
+                tvEventTime.setText(eventArray.get(position).getEventDate() + "\n" +
+                "All-Day");
             }
         }
 
@@ -105,7 +106,8 @@ public class EventCustomAdapter extends BaseAdapter {
             }
             else{
                 tvEventTime.setText(eventArray.get(position).getEventLocation() + "\n" +
-                        eventArray.get(position).getEventDate());
+                        eventArray.get(position).getEventDate() + "\n" +
+                        "All-Day");
             }
         }
 
@@ -123,7 +125,7 @@ public class EventCustomAdapter extends BaseAdapter {
                         }
                         //If there are previous RSVPs, call the method and just add the name into the descripton
                         else{
-                            HFL.postRSVP(event_id, "Reda Ijaz");
+                            HFL.postRSVP(event_id, "Monica Chiu");
                         }
                     }
                     catch (IOException e){
@@ -133,12 +135,14 @@ public class EventCustomAdapter extends BaseAdapter {
 
                 //If RSVP is unchecked, remove current user from the list of RSVPs.
                 else{
+                    Log.v("DIDNT", "didnt");
                     try{
                         event_id = eventArray.get(position).getEventId();
                         //If the rsvp lst is not null, check for the current user's name
-                        if (rsvp_str != "null"){
+                        if (rsvp_str != ""){
+                            Log.v("got here", "got here");
                             StringBuilder strcat = new StringBuilder();
-                            String delimiter = ",";
+                            String delimiter = "";
                             String[] split = rsvp_str.split(",");
                             List lst = Arrays.asList(split);
 
@@ -148,14 +152,17 @@ public class EventCustomAdapter extends BaseAdapter {
                             }
 
                             //Recreate the RSVP lst in the description as comma seprarted string
-                            for(int i = 0; i < lst.size(); i++){
-                                strcat.append(delimiter);
-                                strcat.append(lst.get(i));
-                                delimiter = ",";
+                            if (!(lst.contains("null"))){
+                                for(int i = 0; i < lst.size(); i++){
+                                    strcat.append(delimiter);
+                                    strcat.append(lst.get(i));
+                                    delimiter = ",";
+                                }
                             }
 
                             //Set the new rspv_str and push it to the database.
                             rsvp_str = strcat.toString();
+                            Log.v("RSVP", rsvp_str);
                             HFL.postRSVP(event_id, rsvp_str);
                         }
                     }
