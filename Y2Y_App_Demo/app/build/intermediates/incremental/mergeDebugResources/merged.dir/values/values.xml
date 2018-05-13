@@ -1246,7 +1246,6 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="complete">Complete</string>
-    <string name="default_web_client_id" translatable="false">23146389672-bvdf6e994d8cfgvtt5llhlfrh85806bo.apps.googleusercontent.com</string>
     <string name="drawer_closed">drawer closed</string>
     <string name="drawer_opened">drawer opened</string>
     <string name="drop">Drop</string>
@@ -1257,13 +1256,7 @@
     <string name="excellent">Excellent</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="feedbacktext">Tell us what you like about Y2Y, or if you have suggestions for how we can be better!</string>
-    <string name="firebase_database_url" translatable="false">https://y2yapp-4802f.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">23146389672</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="google_api_key" translatable="false">AIzaSyBQiOeW1yRmKJYqmHkdttBB97pB-1etspY</string>
-    <string name="google_app_id" translatable="false">1:23146389672:android:610db8d0136f42b5</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQiOeW1yRmKJYqmHkdttBB97pB-1etspY</string>
-    <string name="google_storage_bucket" translatable="false">y2yapp-4802f.appspot.com</string>
     <string name="handbook">Y2Y Handbook</string>
     <string name="have_questions">Have questions about an event? Ask a staff member!</string>
     <string name="how_are_you">How Are You Doing Today</string>
@@ -1303,7 +1296,6 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
-    <string name="project_id" translatable="false">y2yapp-4802f</string>
     <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
     <string name="remoteAccessConsumerKey">3MVG9Iu66FKeHhINkB1l7xt7kR8czFcCTUhgoA8Ol2Ltf1eYHOU4SqQRSEitYFDUpqRWcoQ2.dBv_a1Dyu5xa</string>
     <string name="rsvp">RSVP</string>
@@ -1409,6 +1401,7 @@
     <string name="title_settings_dialog">Permissions Required</string>
     <string name="upcoming">Upcoming Events</string>
     <string name="update_info">Update Info</string>
+    <string name="username">Fried Doe</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="warning_label"># of Warnings: </string>
     <string name="why">Why?</string>

@@ -39,12 +39,12 @@ public class LotteryFragment extends Fragment {
     private String LC_lottery_numbers = "";
 
     // Get instance of interface to communicate with MainActivity
-    ControlFragInterface HFL;
+    ControlFragInterface CFL;
 
     @Override
     public void onAttach(Context context) {   //The onAttach method, binds the fragment to the owner activity
         super.onAttach(context);
-        HFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
+        CFL = (ControlFragInterface) context;  //context is a handle to the main activity, binding to interface
     }
 
     @Nullable
@@ -72,8 +72,8 @@ public class LotteryFragment extends Fragment {
         // onFetchLottery and onFetchLotteryNumber calls methods in MainActivity that sends rest requests to Salesforce with the
         // appropriate soql queries and returns the records to setLottery and setLotteryNumber that displays them.
         try {
-            HFL.onFetchLottery(view);
-            HFL.onFetchLotteryNumber(view);
+            CFL.onFetchLottery(view);
+            CFL.onFetchLotteryNumber(view);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -84,7 +84,7 @@ public class LotteryFragment extends Fragment {
     public void setLottery(JSONArray records) throws JSONException {
         // save lottery records (need bed type) to get lottery number
         lotteryrecords = records;
-        // currently using date 2018-04-10 which has all 3 bed types to demonstrate
+        // currently using date 2018-05-01 which has all 3 bed types to demonstrate
         // according to bed type, display the bed type and date of the bed assignment
         for (int i = 0; i < records.length(); i++) {
             if (records.getJSONObject(i).getString("Type__c").equals("Long Term")) {
@@ -131,9 +131,23 @@ public class LotteryFragment extends Fragment {
                 }
             }
         }
-        // display the lottery number winners for each respective bed type
-        tvLTLotteryNum.setText("Lottery #: " + LT_lottery_numbers);
-        tvELotteryNum.setText("Lottery #: " + E_lottery_numbers);
-        tvLCLotteryNum.setText("Lottery #: " + LC_lottery_numbers);
+
+        // remove decimals and display the lottery number winners for each respective bed type
+        if (LT_lottery_numbers.length() != 0) {
+            LT_lottery_numbers = LT_lottery_numbers.replace(".0","");
+            LT_lottery_numbers = LT_lottery_numbers.substring(0, LT_lottery_numbers.length());
+            tvLTLotteryNum.setText("Lottery #: " + LT_lottery_numbers);
+        } else {tvLTLotteryNum.setText("No Lottery Today");}
+        if (E_lottery_numbers.length() != 0) {
+            E_lottery_numbers = E_lottery_numbers.replace(".0","");
+            E_lottery_numbers = E_lottery_numbers.substring(0, E_lottery_numbers.length());
+            tvELotteryNum.setText("Lottery #: " + E_lottery_numbers);
+        } else {tvELotteryNum.setText("No Lottery Today");}
+        if (LC_lottery_numbers.length() != 0) {
+            LC_lottery_numbers = LC_lottery_numbers.replace(".0","");
+            LC_lottery_numbers = LC_lottery_numbers.substring(0, LC_lottery_numbers.length());
+            tvLCLotteryNum.setText("Lottery #: " + LC_lottery_numbers);
+        } else {tvLCLotteryNum.setText("No Lottery Today");}
+
     }
 }

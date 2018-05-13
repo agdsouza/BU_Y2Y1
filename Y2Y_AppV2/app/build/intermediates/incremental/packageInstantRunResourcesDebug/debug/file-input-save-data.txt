@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Apr 26 14:32:34 EDT 2018
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\mcsbu\\OneDrive\\Documents\\GitHub\\BU_Y2Y1\\Y2Y_AppV2\\app\\build\\intermediates\\assets\\debug
-0.path=Guest-Handbook.pdf
-0.set=ASSET
-count=1

@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Y2Y_Layout</string>
-    <string name="drawer_opened">drawer opened</string>
-    <string name="drawer_closed">drawer closed</string>
-</resources>
